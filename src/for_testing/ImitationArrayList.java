@@ -1,13 +1,11 @@
-package homeworks.HW.array_list;
+package for_testing;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -17,31 +15,29 @@ public class ImitationArrayList {
     public static final Path PATH = Paths.get("./Logs/ListLogs.txt");
 
     public ImitationArrayList() {
-        array = new int[5];
+        array = new int[0];
     }
 
     public static void main(String[] args) throws IOException {
         ImitationArrayList list = new ImitationArrayList();
-        list.addElement(15);
-        list.addElement(5);
-        list.addElement(185);
-        list.addElement(195);
-        list.addElement(155);
-        list.changeElementByIndex(4, 5);
-        list.deleteElementByIndex(4);
-
-//        LearnClass learnClass = new LearnClass(12, "12");
+        list.addElement(12);
+        list.addElement(13);
+        System.out.println(list.getArray().length);
+        list.deleteElementByIndex(1);
+        System.out.println(list.getArray().length);
     }
 
     //   1) добавление элементов, учитывать, что массив может быть уже заполнен.
     public void addElement(int element) throws IOException {
         reSize();
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] == 0) {
                 array[i] = element;
                 break;
             }
         }
+
         String log = "\n" + new Date() + " addElement -> " + element;
         writeLogs(log);
     }
@@ -142,7 +138,15 @@ public class ImitationArrayList {
         }
 
         if (!shouldReSize) {
-            int[] temp = new int[array.length * 2];
+
+            int[] temp;
+
+            if (array.length == 0){
+                temp = new int[array.length + 1];
+            }
+            else{
+                temp = new int[array.length * 2];
+            }
             for (int i = 0; i < array.length; i++) {
                 temp[i] = array[i];
             }
@@ -185,13 +189,14 @@ public class ImitationArrayList {
             }
             temp[i] = array[i + 1];
         }
+        array = temp;
 
         String log = new Date() + " deleteElementByIndex -> " + index;
         writeLogs(log);
     }
 
     private void writeLogs(String log) throws IOException {
-        Files.write(PATH, log.getBytes(), StandardOpenOption.APPEND, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+        //Files.write(PATH, log.getBytes(), StandardOpenOption.APPEND, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
     }
 
     public void readLog() throws IOException {
