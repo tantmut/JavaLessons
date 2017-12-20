@@ -1,4 +1,4 @@
-package homeworks.HW.Plain;
+package homeworks.HW.plain;
 
 /**
  * Created by nazar on 3/20/2017.

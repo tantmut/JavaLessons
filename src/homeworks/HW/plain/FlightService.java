@@ -1,4 +1,4 @@
-package homeworks.HW.Plain;
+package homeworks.HW.plain;
 
 import static java.lang.System.out;
 import static java.lang.Integer.MAX_VALUE;

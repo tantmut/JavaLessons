@@ -32,6 +32,8 @@ public class UseMockito {
         Mockito.verify(imitationDB, Mockito.times(1)).getAllRecords();
     }
 
+
+
     /*
     * method{
     * int a = method1

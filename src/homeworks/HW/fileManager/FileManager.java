@@ -1,14 +1,9 @@
-package homeworks.HW.FileManager;
+package homeworks.HW.fileManager;
 
 
-import org.apache.commons.io.FileUtils;
 
-import javax.swing.text.Document;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.file.*;
 
 public class FileManager {
 
@@ -37,11 +32,11 @@ public class FileManager {
 
         File source =   new File(start + nameFile) ;
         File dest = new File(start + nameDirectory);
-        try {
+       /* try {
             FileUtils.copyFileToDirectory(source, dest, true);
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
      }
 
      public void convertFromTxtToPdf(){

@@ -1,4 +1,4 @@
-package homeworks.HW.Train;
+package homeworks.HW.train;
 
 /**
  * Created by nazar on 3/26/2017.
@@ -53,7 +53,7 @@ public class Train {
 
     @Override
     public String toString() {
-        return "Train{" +
+        return "train{" +
                 "carriage=" + carriage +
                 ", comfort=" + comfort +
                 ", arrival=" + arrival +

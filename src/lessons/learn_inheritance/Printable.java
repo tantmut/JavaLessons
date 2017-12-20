@@ -11,7 +11,9 @@ public interface Printable extends Cloneable, Runnable {
     abstract void print();*/
     void print();
 
+
     default int getNumber() {
         return 5;
     }
 }
+

@@ -21,8 +21,7 @@ public abstract class Car implements Printable {
     }
 
     public abstract void getCount();
-/*
-    @Override
+    /*@Override
     public void run() {
         System.out.println("Run");
     }

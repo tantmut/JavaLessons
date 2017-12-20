@@ -1,6 +1,9 @@
 package lessons.learn_inheritance;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Try {
 
     private Car car;
@@ -28,7 +31,7 @@ public class Try {
         return car;
     }
 
-    public void setCar(Bmw car) {
+    public void setCar(Car car) {
         this.car = car;
     }
 }

@@ -23,4 +23,22 @@ public class ImitationDB {
     public void delete(int index) {
         data.remove(index);
     }
+
+    public final int print() {
+        System.out.println("");
+        return 5;
+    }
+
+    public static int printStatic() {
+        System.out.println("");
+        return 5;
+    }
+
+    public int forPrivate() {
+        return printPrivate();
+    }
+
+    private int printPrivate() {
+        return 5;
+    }
 }

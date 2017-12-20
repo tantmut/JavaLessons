@@ -1,4 +1,4 @@
-package homeworks.HW.Train;
+package homeworks.HW.train;
 
 
 public class TrainService {

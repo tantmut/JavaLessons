@@ -1,4 +1,4 @@
-package learn_scanner;
+package lessons.learn_scanner;
 
 import java.util.Scanner;
 
