@@ -1,0 +1,3397 @@
+Index: .idea/libraries/cglib_nodep_2_2_2.xml
+===================================================================
+--- .idea/libraries/cglib_nodep_2_2_2.xml	(date 1513807404000)
++++ .idea/libraries/cglib_nodep_2_2_2.xml	(date 1513807404000)
+@@ -0,0 +1,15 @@
++<component name="libraryTable">
++  <library name="cglib-nodep-2.2.2">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/lib/cglib-nodep-2.2.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javassist-3.21.0-GA.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/objenesis-2.4.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/powermock-mockito-1.7.1-full.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$PROJECT_DIR$/lib/powermock-mockito-1.7.1-full.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1492952001000)
++++ .idea/workspace.xml	(date 1513807404000)
+@@ -1,100 +1,77 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="BookmarkManager">
+-    <bookmark url="file://$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java" line="107" />
++    <bookmark url="file://$PROJECT_DIR$/src/homeworks/HW/fileManager/FileManager.java" line="102" />
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="648ad3f2-89ab-487f-826f-d26ffb8386da" name="Default" comment="">
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/JUnitParams-1.0.5.jar" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mockito-all-1.10.19.jar" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/console/ArrayListTest.class" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/console/CalculatorTest.class" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/console/mocking/UseMockito.class" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWorks/16.04.2017.txt" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/Calculator.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/ImitationArrayList.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/mockito/DAOTest.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/mockito/inject_mocks/Car.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/mockito/inject_mocks/Door.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/for_testing/mockito/inject_mocks/Engine.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testing/ArrayListTest.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testing/CalculatorTest.java" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/Article.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/Book.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/Reference.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/TaskFromSoftServe.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/autoTest/App.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/autoTest/Car.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/autoTest/ICar.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/autoTest/Vehicle$1.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/autoTest/Vehicle.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/FindQuantityEl.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryArrival.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryDeparture.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Flight.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/FlightService.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Main.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/TableOfMultiplication.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/TestArrayList.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityArrival.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityDeparture.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/ComfortClass.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Main.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Train.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TrainService.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TypeOfTrain.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/array_list/ImitationArrayList.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/array_list/Menu.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/online_dating/Main.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/online_dating/Person.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/online_dating/PersonService.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/online_dating/Sex.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/read/Main.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/read/Readable.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/read/Reader.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/write/ReaderData.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/write/Writable.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/write/WriteData.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/write_read/write/Writer.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/interview/Interview$Ballable.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/interview/Interview.class" afterPath="" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cglib-nodep-2.2.2.jar" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.21.0-GA.jar" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/objenesis-2.4.jar" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/powermock-mockito-1.7.1-full.jar" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cglib_nodep_2_2_2.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWorks/11.17/23.11.2017.txt" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SimpleTry.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/Countries.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/Flight.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/FlightService.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/Main.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Genre.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Role.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/User.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/learn_class/LearnClass.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/low_coupling_code/Furniture.java" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testing/powermock/UsePowerMock.java" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rat-0.6.jar" afterPath="" />
+       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/learn_scanner/LearnScanner.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/Cities.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/FirstLesson.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/LearnClass.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/LearnEnums.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/LearnString.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/Wrapper.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Bmw.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Car.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Mercedes.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Printable.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/TestInheritance.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Try.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/learn_polyrphism/Animal.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/learn_polyrphism/Lion.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/learn_polyrphism/Mouse.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/overloading_overriding/CatOO.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/overloading_overriding/TestProtected.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/lessons/overloading_overriding/another_package/AnimalOO.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/newpacket/A.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/newpacket/B.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/newpacket/Test.class" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/newpacket/some.class" afterPath="" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWorks/ActionsBeforeShowCode.txt" afterPath="$PROJECT_DIR$/ActionsBeforeShowCode.txt" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/fileManager/FileManager.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/CountryArrival.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/CountryArrival.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/CountryDeparture.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/CountryDeparture.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/Flight.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/Flight.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/FlightService.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/FlightService.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/Main.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/Main.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/CityArrival.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/CityArrival.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/CityDeparture.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/CityDeparture.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/ComfortClass.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/ComfortClass.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/Main.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/Main.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/Train.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/Train.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/TrainService.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/TrainService.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/TypeOfTrain.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/TypeOfTrain.java" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/src/learn_scanner/LearnScanner.java" afterPath="$PROJECT_DIR$/src/lessons/learn_scanner/LearnScanner.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/for_testing/mockito/ImitationDB.class" afterPath="$PROJECT_DIR$/out/production/console/for_testing/mockito/ImitationDB.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/FileManager/FileManager.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/FileManager/FileManager.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryArrival.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryArrival.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryDeparture.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryDeparture.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Flight.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Flight.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/FlightService.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/FlightService.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Main.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Main.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityArrival.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityArrival.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityDeparture.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityDeparture.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/ComfortClass.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/ComfortClass.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Main.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Main.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Train.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Train.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TrainService.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TrainService.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TypeOfTrain.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TypeOfTrain.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Bmw.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Bmw.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Car.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Car.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Printable.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Printable.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/TestInheritance.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/TestInheritance.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Try.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Try.class" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console.iml" afterPath="$PROJECT_DIR$/console.iml" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeworks/HW/array_list/ImitationArrayList.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/array_list/ImitationArrayList.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" afterPath="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Bmw.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Bmw.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Car.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Car.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Printable.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Printable.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/TestInheritance.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/TestInheritance.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Try.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Try.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" afterPath="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -110,21 +87,33 @@
+   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file leaf-file-name="ImitationArrayList.java" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/for_testing/ImitationArrayList.java">
++      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="17">
+-              <caret line="191" column="21" lean-forward="false" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
++            <state relative-caret-position="225">
++              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
++              <folding>
++                <element signature="e#368#369#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="Genre.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Genre.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="170">
++              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="FileManager.java" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java">
++      <file leaf-file-name="LibriaryService.java" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="-568">
+-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
++            <state relative-caret-position="128">
++              <caret line="185" column="11" lean-forward="false" selection-start-line="185" selection-start-column="11" selection-end-line="185" selection-end-column="11" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+               </folding>
+@@ -132,11 +121,45 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="16.04.2017.txt" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/HomeWorks/16.04.2017.txt">
++      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="48">
++              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
++              <folding>
++                <marker date="1513631151738" expanded="true" signature="308:673" ph="..." />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Role.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="136">
++              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/User.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="222">
++              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
++              <folding>
++                <element signature="e#1321#1322#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="23.11.2017.txt" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/HomeWorks/11.17/23.11.2017.txt">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="85">
+-              <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="104" />
++              <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="64" />
+               <folding />
+             </state>
+           </provider>
+@@ -149,8 +172,9 @@
+       <list>
+         <option value="Kotlin Class" />
+         <option value="Kotlin Enum" />
+-        <option value="Enum" />
+         <option value="Interface" />
++        <option value="Enum" />
++        <option value="JUnit4 Test Class" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -169,6 +193,14 @@
+       <find>directToConsole</find>
+       <find>filePath</find>
+       <find>target</find>
++      <find>nameOfu</find>
++      <find>reader</find>
++      <find>delete</find>
++      <find>give</find>
++      <find>try</find>
++      <find>take</find>
++      <find>user</find>
++      <find>You have entered not integer</find>
+     </findStrings>
+     <replaceStrings>
+       <replace>out</replace>
+@@ -185,41 +217,6 @@
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/read/Reader.java" />
+-        <option value="$PROJECT_DIR$/src/TaskFromSoftServe.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/read/Readable.java" />
+-        <option value="$PROJECT_DIR$/something/poem.txt" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/read/Main.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/read/ReaderData.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/write/Writer.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/read/ReaderData.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/write/Writable.java" />
+-        <option value="$PROJECT_DIR$/HomeWorks/26.02.2017.txt" />
+-        <option value="$PROJECT_DIR$/HomeWorks/02.04.2017.txt" />
+-        <option value="$PROJECT_DIR$/src/enum/enum.kt" />
+-        <option value="$PROJECT_DIR$/src/enum/java.kt" />
+-        <option value="$PROJECT_DIR$/src/d/enums.java" />
+-        <option value="$PROJECT_DIR$/src/d/naz.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/ImitationArrayList.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/Reader.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/Reader.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/read/Reader.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/WriteData.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/array_list/ReaderData.java" />
+-        <option value="$PROJECT_DIR$/src/newpacket/one.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/read/Main.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/array_list/WriteData.java" />
+-        <option value="$PROJECT_DIR$/src/homeworks/HW/TestArrayList.java" />
+-        <option value="$PROJECT_DIR$/HomeWorks/ActionsBeforeShowCode.txt" />
+-        <option value="$PROJECT_DIR$/HomeWorks/09.04.2017.txt" />
+-        <option value="$PROJECT_DIR$/src/interview/Interview.java" />
+-        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java" />
+-        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/Lion.java" />
+-        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/Animal.java" />
+-        <option value="$PROJECT_DIR$/src/newpacket/some.java" />
+-        <option value="$PROJECT_DIR$/src/asdf.java" />
+-        <option value="$PROJECT_DIR$/src/newpacket/One.java" />
+-        <option value="$PROJECT_DIR$/src/newpacket/lll.java" />
+         <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/write/WriteData.java" />
+         <option value="$PROJECT_DIR$/src/homeworks/HW/write_read/write/ReaderData.java" />
+         <option value="$PROJECT_DIR$/Logs/ListLogs.txt" />
+@@ -229,13 +226,48 @@
+         <option value="$PROJECT_DIR$/src/testing/mocking/ImitationDB.java" />
+         <option value="$PROJECT_DIR$/src/testing/mocking/DAOTest.java" />
+         <option value="$PROJECT_DIR$/src/for_testing/DAOTest.java" />
+-        <option value="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" />
+-        <option value="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" />
+         <option value="$PROJECT_DIR$/HomeWorks/16.04.2017.txt" />
+         <option value="$USER_HOME$/Desktop/commons-io-2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class" />
+         <option value="$PROJECT_DIR$/src/for_testing/ImitationArrayList.java" />
+         <option value="$PROJECT_DIR$/src/testing/ArrayListTest.java" />
+         <option value="$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_class/LearnClass.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Airoport/CountryDeparture.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Airoport/Flight.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Plain/Main.java" />
++        <option value="$PROJECT_DIR$/HomeWorks/11.03.2017.txt" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Airoport/FlightService.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Airoport/Main.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Libriary/Main.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Libriary/Users.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Libriary/User.java" />
++        <option value="$PROJECT_DIR$/src/SimpleTry.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Libriary/Admin.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/Libriary/Libriary.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/Bmw.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/Car.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/TestInheritance.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/Try.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/airoport/CountryArrival.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/airoport/Countries.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/airoport/Main.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/airoport/Flight.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/airoport/FlightService.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/Admin.java" />
++        <option value="$PROJECT_DIR$/HomeWorks/11.17/23.11.2017.txt" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/Printable.java" />
++        <option value="$PROJECT_DIR$/src/lessons/learn_inheritance/low_coupling_code/Furniture.java" />
++        <option value="$PROJECT_DIR$/src/testing/for_testing/mockito/ImitationDBTest.java" />
++        <option value="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" />
++        <option value="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" />
++        <option value="$PROJECT_DIR$/src/testing/powermock/UsePowerMock.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/Genre.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/User.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/Role.java" />
++        <option value="$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java" />
+       </list>
+     </option>
+   </component>
+@@ -248,7 +280,7 @@
+   <component name="ProjectFrameBounds">
+     <option name="x" value="-8" />
+     <option name="y" value="-8" />
+-    <option name="width" value="1370" />
++    <option name="width" value="1382" />
+     <option name="height" value="744" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+@@ -269,64 +301,82 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="PackagesPane" />
+-      <pane id="Scratches" />
+       <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <PATH>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="console" />
++              <option name="myItemId" value="JavaLessons" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="External Libraries" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
++              <option name="myItemId" value="JavaLessons" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+           </PATH>
+           <PATH>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="console" />
++              <option name="myItemId" value="JavaLessons" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="console" />
++              <option name="myItemId" value="JavaLessons" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="src" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+           </PATH>
+           <PATH>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="console" />
++              <option name="myItemId" value="JavaLessons" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="console" />
++              <option name="myItemId" value="JavaLessons" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="HomeWorks" />
++              <option name="myItemId" value="src" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="HW" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+           </PATH>
+         </subPane>
+       </pane>
++      <pane id="PackagesPane" />
++      <pane id="Scratches" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+-    <property name="project.structure.last.edited" value="Modules" />
++    <property name="project.structure.last.edited" value="Libraries" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.2" />
+     <property name="js.eslint.eslintPackage" value="" />
+-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JavaiTextPDFExamples" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
++    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+   </component>
+   <component name="RecentsManager">
+-    <key name="CreateClassDialog.RecentsKey">
+-      <recent name="homeworks.HW.write_read.write" />
++    <key name="CreateTestDialog.RecentsKey">
++      <recent name="for_testing.mockito" />
++    </key>
++    <key name="CreateTestDialog.Recents.Supers">
++      <recent name="" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\nazar123\IdeaProjects\JavaLessons" />
++      <recent name="C:\Users\nazar\IdeaProjects\console\src\homeworks\HW\array_list" />
+     </key>
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\nazar123\IdeaProjects\JavaLessons\lib" />
++      <recent name="C:\Users\nazar123\IdeaProjects\JavaLessons\HomeWorks\11.17" />
+       <recent name="C:\Users\nazar\IdeaProjects\console\src\for_testing" />
+       <recent name="C:\Users\nazar\IdeaProjects\console\HomeWorks" />
+       <recent name="C:\Users\nazar\IdeaProjects\console\something" />
+@@ -335,8 +385,8 @@
+       <recent name="homeworks.HW" />
+       <recent name="homeworks.HW.write_read.read" />
+     </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\nazar\IdeaProjects\console\src\homeworks\HW\array_list" />
++    <key name="CreateClassDialog.RecentsKey">
++      <recent name="homeworks.HW.write_read.write" />
+     </key>
+   </component>
+   <component name="RunDashboard">
+@@ -351,57 +401,60 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Application.FileManager">
+-    <configuration default="false" name="ArrayListTest.shouldReturnResultAfterChangeElementByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <module name="console" />
++  <component name="RunManager" selected="Application.Main (2)">
++    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
++        <pattern>
++          <option name="PATTERN" value="homeworks.HW.airoport.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="MAIN_CLASS_NAME" value="homeworks.HW.airoport.Main" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+       <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="ArrayListTest" />
+-      <option name="METHOD_NAME" value="shouldReturnResultAfterChangeElementByIndex" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <option name="VM_PARAMETERS" value="-ea" />
+-      <option name="PARAMETERS" />
+-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
++      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+       <option name="ENV_VARIABLES" />
+       <option name="PASS_PARENT_ENVS" value="true" />
+-      <option name="TEST_SEARCH_SCOPE">
+-        <value defaultName="singleModule" />
+-      </option>
++      <module name="console" />
+       <envs />
+-      <patterns />
+       <method />
+     </configuration>
+-    <configuration default="false" name="ArrayListTest.shouldReturnResultAfterDecreaseArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <module name="console" />
++    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
++        <pattern>
++          <option name="PATTERN" value="homeworks.HW.libriary.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="MAIN_CLASS_NAME" value="homeworks.HW.libriary.Main" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+       <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="ArrayListTest" />
+-      <option name="METHOD_NAME" value="shouldReturnResultAfterDecreaseArray" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <option name="VM_PARAMETERS" value="-ea" />
+-      <option name="PARAMETERS" />
+-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
++      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+       <option name="ENV_VARIABLES" />
+       <option name="PASS_PARENT_ENVS" value="true" />
+-      <option name="TEST_SEARCH_SCOPE">
+-        <value defaultName="singleModule" />
+-      </option>
++      <module name="console" />
+       <envs />
+-      <patterns />
+       <method />
+     </configuration>
+-    <configuration default="false" name="ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++    <configuration default="false" name="UseMockito.shouldMockStaticMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
++        <pattern>
++          <option name="PATTERN" value="mocking.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <module name="console" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+       <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="ArrayListTest" />
+-      <option name="METHOD_NAME" value="shouldReturnResultAfterDeleteElementByIndex" />
++      <option name="PACKAGE_NAME" value="mocking" />
++      <option name="MAIN_CLASS_NAME" value="mocking.UseMockito" />
++      <option name="METHOD_NAME" value="shouldMockStaticMethod" />
+       <option name="TEST_OBJECT" value="method" />
+       <option name="VM_PARAMETERS" value="-ea" />
+       <option name="PARAMETERS" />
+@@ -415,44 +468,56 @@
+       <patterns />
+       <method />
+     </configuration>
+-    <configuration default="false" name="ImitationArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration default="false" name="UsePowerMock.shouldMockStaticMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+         <pattern>
+-          <option name="PATTERN" value="for_testing.*" />
++          <option name="PATTERN" value="powermock.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="MAIN_CLASS_NAME" value="for_testing.ImitationArrayList" />
+-      <option name="VM_PARAMETERS" />
+-      <option name="PROGRAM_PARAMETERS" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <module name="console" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+       <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
++      <option name="PACKAGE_NAME" value="powermock" />
++      <option name="MAIN_CLASS_NAME" value="powermock.UsePowerMock" />
++      <option name="METHOD_NAME" value="shouldMockStaticMethod" />
++      <option name="TEST_OBJECT" value="method" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+       <option name="ENV_VARIABLES" />
+       <option name="PASS_PARENT_ENVS" value="true" />
+-      <module name="console" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
+       <envs />
++      <patterns />
+       <method />
+     </configuration>
+-    <configuration default="false" name="FileManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration default="false" name="UsePowerMock.shouldMockPrivateMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+         <pattern>
+-          <option name="PATTERN" value="homeworks.HW.FileManager.*" />
++          <option name="PATTERN" value="powermock.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="MAIN_CLASS_NAME" value="homeworks.HW.FileManager.FileManager" />
+-      <option name="VM_PARAMETERS" />
+-      <option name="PROGRAM_PARAMETERS" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <module name="console" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+       <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
++      <option name="PACKAGE_NAME" value="powermock" />
++      <option name="MAIN_CLASS_NAME" value="powermock.UsePowerMock" />
++      <option name="METHOD_NAME" value="shouldMockPrivateMethod" />
++      <option name="TEST_OBJECT" value="method" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+       <option name="ENV_VARIABLES" />
+       <option name="PASS_PARENT_ENVS" value="true" />
+-      <module name="console" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
+       <envs />
++      <patterns />
+       <method />
+     </configuration>
+     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+@@ -660,19 +725,19 @@
+       <method />
+     </configuration>
+     <list size="5">
+-      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayListTest.shouldReturnResultAfterChangeElementByIndex" />
+-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.shouldReturnResultAfterDecreaseArray" />
+-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" />
+-      <item index="3" class="java.lang.String" itemvalue="Application.ImitationArrayList" />
+-      <item index="4" class="java.lang.String" itemvalue="Application.FileManager" />
++      <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
++      <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
++      <item index="2" class="java.lang.String" itemvalue="JUnit.UseMockito.shouldMockStaticMethod" />
++      <item index="3" class="java.lang.String" itemvalue="JUnit.UsePowerMock.shouldMockStaticMethod" />
++      <item index="4" class="java.lang.String" itemvalue="JUnit.UsePowerMock.shouldMockPrivateMethod" />
+     </list>
+     <recent_temporary>
+       <list size="5">
+-        <item index="0" class="java.lang.String" itemvalue="Application.FileManager" />
+-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" />
+-        <item index="2" class="java.lang.String" itemvalue="Application.ImitationArrayList" />
+-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest.shouldReturnResultAfterChangeElementByIndex" />
+-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayListTest.shouldReturnResultAfterDecreaseArray" />
++        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
++        <item index="1" class="java.lang.String" itemvalue="JUnit.UsePowerMock.shouldMockPrivateMethod" />
++        <item index="2" class="java.lang.String" itemvalue="JUnit.UsePowerMock.shouldMockStaticMethod" />
++        <item index="3" class="java.lang.String" itemvalue="JUnit.UseMockito.shouldMockStaticMethod" />
++        <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -704,66 +769,65 @@
+     <servers />
+   </component>
+   <component name="TestHistory">
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterAddElement - 2017.04.22 at 15h 33m 28s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterAddElement" configurationId="JUnit" />
++    <history-entry file="ArrayListTest_shouldReturnResultAfterDeleteElementByIndex - 2017.04.22 at 15h 45m 07s.xml">
++      <configuration name="ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterAddElement - 2017.04.22 at 15h 39m 53s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterAddElement" configurationId="JUnit" />
++    <history-entry file="ArrayListTest_shouldReturnResultAfterIncreaseArray - 2017.04.22 at 15h 28m 13s.xml">
++      <configuration name="ArrayListTest.shouldReturnResultAfterIncreaseArray" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterChangeElementByIndex - 2017.04.22 at 15h 40m 37s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterChangeElementByIndex" configurationId="JUnit" />
++    <history-entry file="ArrayListTest_shouldReturnResultAfterIncreaseArray - 2017.04.22 at 15h 40m 04s.xml">
++      <configuration name="ArrayListTest.shouldReturnResultAfterIncreaseArray" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterDecreaseArray - 2017.04.22 at 15h 40m 09s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterDecreaseArray" configurationId="JUnit" />
++    <history-entry file="UseMockito_shouldMockStaticMethod - 2017.12.10 at 20h 22m 19s.xml">
++      <configuration name="UseMockito.shouldMockStaticMethod" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterDeleteElementByIndex - 2017.04.22 at 15h 41m 47s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" configurationId="JUnit" />
++    <history-entry file="UseMockito_shouldMockStaticMethod - 2017.12.10 at 20h 23m 22s.xml">
++      <configuration name="UseMockito.shouldMockStaticMethod" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterDeleteElementByIndex - 2017.04.22 at 15h 42m 09s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" configurationId="JUnit" />
++    <history-entry file="UseMockito_shouldMockStaticMethod - 2017.12.10 at 20h 23m 41s.xml">
++      <configuration name="UseMockito.shouldMockStaticMethod" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterDeleteElementByIndex - 2017.04.22 at 15h 44m 40s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" configurationId="JUnit" />
++    <history-entry file="UsePowerMock_shouldMockPrivateMethod - 2017.12.10 at 20h 44m 19s.xml">
++      <configuration name="UsePowerMock.shouldMockPrivateMethod" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterDeleteElementByIndex - 2017.04.22 at 15h 45m 07s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterDeleteElementByIndex" configurationId="JUnit" />
++    <history-entry file="UsePowerMock_shouldMockPrivateMethod - 2017.12.10 at 20h 44m 58s.xml">
++      <configuration name="UsePowerMock.shouldMockPrivateMethod" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterIncreaseArray - 2017.04.22 at 15h 28m 13s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterIncreaseArray" configurationId="JUnit" />
++    <history-entry file="UsePowerMock_shouldMockStaticMethod - 2017.12.10 at 20h 36m 15s.xml">
++      <configuration name="UsePowerMock.shouldMockStaticMethod" configurationId="JUnit" />
+     </history-entry>
+-    <history-entry file="ArrayListTest_shouldReturnResultAfterIncreaseArray - 2017.04.22 at 15h 40m 04s.xml">
+-      <configuration name="ArrayListTest.shouldReturnResultAfterIncreaseArray" configurationId="JUnit" />
++    <history-entry file="UsePowerMock_shouldMockStaticMethod - 2017.12.10 at 20h 39m 41s.xml">
++      <configuration name="UsePowerMock.shouldMockStaticMethod" configurationId="JUnit" />
+     </history-entry>
+   </component>
+   <component name="TimeTrackingManager">
+     <option name="totallyTimeSpent" value="78941000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+-    <editor active="true" />
++    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+     <layout>
+       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38322368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.382906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38980263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51623935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44786325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21565731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36157337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3930921" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46495727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+@@ -789,17 +853,18 @@
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33846155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46495727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.382906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18803419" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44786325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
++      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20687023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+@@ -865,9 +930,9 @@
+           <option name="timeStamp" value="34" />
+         </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-method">
+-          <url>file://$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java</url>
+-          <line>101</line>
+-          <properties class="homeworks.HW.FileManager.FileManager" method="main">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/fileManager/FileManager.java</url>
++          <line>96</line>
++          <properties class="homeworks.HW.fileManager.FileManager" method="main">
+             <option name="EMULATED" value="true" />
+           </properties>
+           <option name="timeStamp" value="45" />
+@@ -875,7 +940,7 @@
+         <line-breakpoint enabled="true" type="java-method">
+           <url>file://$PROJECT_DIR$/src/testing/ArrayListTest.java</url>
+           <line>28</line>
+-          <properties class="ArrayListTest" method="shouldReturnResultAfterIncreaseArray">
++          <properties class="ArrayListTest" method="shouldReturnResultAfterDecreaseArray">
+             <option name="EMULATED" value="true" />
+           </properties>
+           <option name="timeStamp" value="47" />
+@@ -889,20 +954,62 @@
+           <option name="timeStamp" value="49" />
+         </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java</url>
+-          <line>30</line>
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/fileManager/FileManager.java</url>
++          <line>25</line>
+           <properties />
+           <option name="timeStamp" value="42" />
+         </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/airoport/FlightService.java</url>
++          <line>51</line>
++          <properties />
++          <option name="timeStamp" value="53" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/airoport/Main.java</url>
++          <line>9</line>
++          <properties />
++          <option name="timeStamp" value="79" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java</url>
++          <line>95</line>
++          <properties />
++          <option name="timeStamp" value="112" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java</url>
++          <line>190</line>
++          <properties />
++          <option name="timeStamp" value="114" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java</url>
++          <line>177</line>
++          <properties />
++          <option name="timeStamp" value="117" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java</url>
++          <line>14</line>
++          <properties />
++          <option name="timeStamp" value="118" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java</url>
++          <line>110</line>
++          <properties />
++          <option name="timeStamp" value="119" />
++        </line-breakpoint>
+       </breakpoints>
+       <breakpoints-dialog>
+         <breakpoints-dialog />
+       </breakpoints-dialog>
+-      <option name="time" value="50" />
++      <option name="time" value="123" />
+     </breakpoint-manager>
+     <watches-manager>
+       <configuration name="Application">
+-        <watch expression="array[i] + 2" language="JAVA" />
++        <watch expression="service" />
+       </configuration>
+     </watches-manager>
+   </component>
+@@ -911,344 +1018,366 @@
+     <option name="FILTER_TARGETS" value="false" />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/HomeWorks/26.03.2017.txt">
++    <entry file="file://$PROJECT_DIR$/HomeWorks/11.03.2017.txt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="5" column="65" lean-forward="false" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
++        <state relative-caret-position="255">
++          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/FindQuantityEl.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/Libriary.java" />
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/fileManager/FileManager.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
++        <state relative-caret-position="-754">
++          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="42" selection-end-column="11" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/HomeWorks/26.02.2017.txt">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/online_dating/Main.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="204">
+-          <caret line="12" column="47" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="12" selection-end-column="47" />
++        <state relative-caret-position="28">
++          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/read/Readable.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/FindQuantityEl.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="102">
+-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
++        <state relative-caret-position="85">
++          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/write/Writer.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/plain/FlightService.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="34">
+-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
++        <state relative-caret-position="476">
++          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="22" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/write/Writable.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/train/Main.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="102">
+-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
++        <state relative-caret-position="53">
++          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/read/ReaderData.java" />
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/read/Reader.java">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/LocalTime.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="185">
++          <caret line="470" column="12" lean-forward="false" selection-start-line="470" selection-start-column="12" selection-end-line="470" selection-end-column="12" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/array_list/Reader.java" />
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/read/Main.java">
++    <entry file="file://$PROJECT_DIR$/src/SimpleTry.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="187">
+-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
++        <state relative-caret-position="136">
++          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/HomeWorks/09.04.2017.txt">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/plain/Main.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="17">
+-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
++        <state relative-caret-position="171">
++          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/TestArrayList.java">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="187">
+-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="68" />
++        <state relative-caret-position="110">
++          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
++    <entry file="file://$PROJECT_DIR$/src/for_testing/ImitationArrayList.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="224">
+-          <caret line="113" column="25" lean-forward="false" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="25" />
++        <state relative-caret-position="121">
++          <caret line="211" column="34" lean-forward="false" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Cloneable.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="189">
+-          <caret line="133" column="20" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="20" />
++        <state relative-caret-position="81">
++          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/interview/Interview.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/Mercedes.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="510">
+-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="19" />
++        <state relative-caret-position="85">
++          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/Lion.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/Car.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="85">
+-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
++          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/TestInheritance.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="136">
+-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="32" />
++        <state relative-caret-position="272">
++          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/Animal.java">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="170">
+-          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
++        <state relative-caret-position="177">
++          <caret line="221" column="44" lean-forward="false" selection-start-line="221" selection-start-column="44" selection-end-line="221" selection-end-column="44" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/Try.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="8143">
+-          <caret line="506" column="60" lean-forward="false" selection-start-line="506" selection-start-column="60" selection-end-line="506" selection-end-column="60" />
++        <state relative-caret-position="176">
++          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/newpacket/some.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/Bmw.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="109">
++          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/Lion.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="119">
+-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
++          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/asdf.java" />
+-    <entry file="file://$PROJECT_DIR$/src/newpacket/One.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="238">
+-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+-          <folding />
++        <state relative-caret-position="289">
++          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/newpacket/lll.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/airoport/CountryDeparture.java" />
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/array_list/ImitationArrayList.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="85">
+-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
++          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/array_list/WriteData.java" />
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/array_list/ReaderData.java" />
+-    <entry file="file://$USER_HOME$/Desktop/IdeaProjects/console/console.iml">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/airoport/Countries.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="136">
++          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/write/WriteData.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/airoport/FlightService.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
++        <state relative-caret-position="254">
++          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/write_read/write/ReaderData.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/airoport/Main.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="187">
+-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
++        <state relative-caret-position="289">
++          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/Logs/ListLogs.txt">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/airoport/Flight.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="187">
++          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/file/StandardOpenOption.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Admin.java" />
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/IntPredicate.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="595">
+-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
++        <state relative-caret-position="113">
++          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/HomeWorks/ActionsBeforeShowCode.txt">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Boolean.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="34">
+-          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
++        <state relative-caret-position="116">
++          <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/HomeWorks/02.04.2017.txt">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="51">
+-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
++        <state relative-caret-position="269">
++          <caret line="184" column="12" lean-forward="false" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/array_list/ImitationArrayList.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/overloading_overriding/another_package/AnimalOO.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="241">
+-          <caret line="144" column="33" lean-forward="false" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="51" />
++        <state relative-caret-position="51">
++          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/mockito/DAOTest.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/Animal.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="119">
+-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
++        <state relative-caret-position="136">
++          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/testing/mocking/UseMockito.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/Printable.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="79">
+-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
++        <state relative-caret-position="-119">
++          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java">
++    <entry file="file://$PROJECT_DIR$/src/lessons/learn_inheritance/low_coupling_code/Furniture.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="17">
+-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
++        <state relative-caret-position="274">
++          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/mockito/inject_mocks/Car.java">
++    <entry file="file://$PROJECT_DIR$/src/TaskFromSoftServe.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
++        <state relative-caret-position="17">
++          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/mockito/inject_mocks/Engine.java">
++    <entry file="file://$PROJECT_DIR$/src/testing/CalculatorTest.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
++        <state relative-caret-position="-372">
++          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/mockito/inject_mocks/Door.java">
++    <entry file="file://$PROJECT_DIR$/src/testing/ArrayListTest.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
++        <state relative-caret-position="145">
++          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/nio/fs/WindowsFileSystemProvider.class">
++    <entry file="file://$PROJECT_DIR$/src/testing/for_testing/mockito/ImitationDBTest.java" />
++    <entry file="file://$PROJECT_DIR$/src/testing/mocking/UseMockito.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="114">
+-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
++        <state relative-caret-position="34">
++          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/file/Files.java">
++    <entry file="file://$PROJECT_DIR$/src/testing/powermock/UsePowerMock.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-175">
+-          <caret line="1267" column="52" lean-forward="false" selection-start-line="1267" selection-start-column="46" selection-end-line="1267" selection-end-column="52" />
+-          <folding />
++        <state relative-caret-position="374">
++          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java">
++    <entry file="file://$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="115">
+-          <caret line="2227" column="16" lean-forward="false" selection-start-line="2227" selection-start-column="16" selection-end-line="2227" selection-end-column="16" />
+-          <folding />
++        <state relative-caret-position="327">
++          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/nio/fs/WindowsFileCopy.class">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="114">
+-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
++        <state relative-caret-position="46750">
++          <caret line="2831" column="18" lean-forward="false" selection-start-line="2831" selection-start-column="18" selection-end-line="2831" selection-end-column="18" />
++          <folding>
++            <element signature="e#111196#111197#0" expanded="false" />
++            <element signature="e#111251#111252#0" expanded="false" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://$USER_HOME$/Desktop/commons-io-2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class">
++    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="164">
+-          <caret line="458" column="56" lean-forward="false" selection-start-line="458" selection-start-column="40" selection-end-line="458" selection-end-column="56" />
++        <state relative-caret-position="721">
++          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/testing/CalculatorTest.java">
++    <entry file="file://$PROJECT_DIR$/HomeWorks/11.17/23.11.2017.txt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="97">
+-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
++        <state relative-caret-position="85">
++          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="64" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/Calculator.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Genre.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="68">
+-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
++        <state relative-caret-position="170">
++          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$USER_HOME$/Desktop/JavaiTextPDFExamples/src/com/howtodoinjava/examples/CreateListExample.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/User.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1054">
+-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
++        <state relative-caret-position="222">
++          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+           <folding>
+-            <element signature="imports" expanded="true" />
++            <element signature="e#1321#1322#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-568">
+-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
++        <state relative-caret-position="225">
++          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+           <folding>
+-            <element signature="imports" expanded="true" />
++            <element signature="e#368#369#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/testing/ArrayListTest.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Role.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="17">
+-          <caret line="15" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
++        <state relative-caret-position="136">
++          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/for_testing/ImitationArrayList.java">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="17">
+-          <caret line="191" column="21" lean-forward="false" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+-          <folding />
++        <state relative-caret-position="48">
++          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
++          <folding>
++            <marker date="1513631151738" expanded="true" signature="308:673" ph="..." />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/HomeWorks/16.04.2017.txt">
++    <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="85">
+-          <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="104" />
+-          <folding />
++        <state relative-caret-position="128">
++          <caret line="185" column="11" lean-forward="false" selection-start-line="185" selection-start-column="11" selection-end-line="185" selection-end-column="11" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -1309,6 +1438,7 @@
+             <option name="proportions">
+               <list>
+                 <option value="0.2" />
++                <option value="0.6" />
+               </list>
+             </option>
+           </splitter-proportions>
+@@ -1328,7 +1458,7 @@
+       </state>
+       <state key="ProjectLibrariesConfigurable.UI">
+         <settings>
+-          <last-edited>junit-4.12</last-edited>
++          <last-edited>cglib-nodep-2.2.2</last-edited>
+           <splitter-proportions>
+             <option name="proportions">
+               <list>
+Index: HomeWorks/ActionsBeforeShowCode.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- HomeWorks/ActionsBeforeShowCode.txt	(date 1492952001000)
++++ ActionsBeforeShowCode.txt	(date 1513807404000)
+@@ -1,0 +1,0 @@
+Index: HomeWorks/11.17/23.11.2017.txt
+===================================================================
+--- HomeWorks/11.17/23.11.2017.txt	(date 1513807404000)
++++ HomeWorks/11.17/23.11.2017.txt	(date 1513807404000)
+@@ -0,0 +1,32 @@
++/**
++ * Создать приложение библиотека с пользователями администратор и посетители. +
++ * Администратор может добавлять книги либо удалять книги.+
++ * Книгу можно выдавать посетителю если она не взята.+
++ * Для посетителя и администратора есть права,+
++ * посетитель не может добавлять книги,он может их только брать+
++ * Добавить возможность пароля.+
++ * Посетитель и администратор могут просматривать список книг.+
++ * Книги добавлять и хранить только по жанрам.+
++ * Библиотека работает только с 8-ми утра до 5-ти вечера.(системное время)+
++ * Cоздать меню.
++ * Сделать в отдельной ветке.
++ */
++
++ Создать приложение, позволяющие создавать расписание аэропорта.
++ Приложение должно позволять:
++ 1) Создавать рейс.
++ 2) После ввода страны прибытия и/или страны отправления выводить список подходящих рейсов.
++ 3) Просматривать все рейсы.
++ 4) Просматривать информацию о конкретном рейсе.
++ 5) Организовать "умный поиск". Пользователь вводит требования(город отправления, город прибытия, время в полете, количество мест)
++ и выводить рейс, который соответствует требованиям.
++ Для полей "город отправления", "город прибытия" использовать enums.
++
++ Покрыть юнит-тестами расписание аэропорта
++
++ Сделать приложения в разных ветках
++
++ Создать интерфейс Calculatable с методом calculateSquare и default метод print, который печатает название фигуры.
++ Создать абстрактный класс Figure с полями(длина стороны, высота), который реализует интерфейс Calculatable.
++ Создать классы Triangle, Parallelogram, Romb. В классах наследниках переопределить метод calculateSquare,
++ для расчета площади. Протестировать функционал.
+\ No newline at end of file
+Index: console.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- console.iml	(date 1492952001000)
++++ console.iml	(date 1513807404000)
+@@ -41,5 +41,6 @@
+         </SOURCES>
+       </library>
+     </orderEntry>
++    <orderEntry type="library" name="cglib-nodep-2.2.2" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: src/SimpleTry.java
+===================================================================
+--- src/SimpleTry.java	(date 1513807404000)
++++ src/SimpleTry.java	(date 1513807404000)
+@@ -0,0 +1,11 @@
++import java.time.LocalTime;
++
++/**
++ * Created by nazar123 on 30.11.2017.
++ */
++public class SimpleTry {
++    public static void main(String[] args) {
++        LocalTime localTime = LocalTime.now();
++        System.out.println(localTime.getHour());
++    }
++}
+Index: src/for_testing/mockito/ImitationDB.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/for_testing/mockito/ImitationDB.java	(date 1492952001000)
++++ src/for_testing/mockito/ImitationDB.java	(date 1513807404000)
+@@ -23,4 +23,22 @@
+     public void delete(int index) {
+         data.remove(index);
+     }
++
++    public final int print() {
++        System.out.println("");
++        return 5;
++    }
++
++    public static int printStatic() {
++        System.out.println("");
++        return 5;
++    }
++
++    public int forPrivate() {
++        return printPrivate();
++    }
++
++    private int printPrivate() {
++        return 5;
++    }
+ }
+Index: src/homeworks/HW/airoport/Countries.java
+===================================================================
+--- src/homeworks/HW/airoport/Countries.java	(date 1513807404000)
++++ src/homeworks/HW/airoport/Countries.java	(date 1513807404000)
+@@ -0,0 +1,10 @@
++package homeworks.HW.airoport;
++
++/**
++ * Created by nazar123 on 26.11.2017.
++ */
++public enum Countries {
++    POLAND,
++    Ukraine,
++    Belarus
++}
+Index: src/homeworks/HW/airoport/Flight.java
+===================================================================
+--- src/homeworks/HW/airoport/Flight.java	(date 1513807404000)
++++ src/homeworks/HW/airoport/Flight.java	(date 1513807404000)
+@@ -0,0 +1,55 @@
++package homeworks.HW.airoport;
++
++/**
++ * Created by nazar123 on 26.11.2017.
++ */
++public class Flight {
++    private Countries arrival;
++    private Countries departure;//delete the field
++    private String timeArrival;
++    private String timeDeparture;
++    private int id;
++    private int place;
++
++    @Override
++    public String toString() {
++        return "Number fly is " + id +
++                ". The plain is flying from " + departure +
++                " to " + getArrival() +
++                ". The departure time is " + getTimeDeparture() +
++                ". The arrival time is " + getTimeArrival();
++    }
++
++
++    public Countries getArrival() {
++        return arrival;
++    }
++
++    public Countries getDeparture() {
++        return departure;
++    }
++
++    public String getTimeArrival() {
++        return timeArrival;
++    }
++
++    public String getTimeDeparture() {
++        return timeDeparture;
++    }
++
++    public int getId() {
++        return id;
++    }
++
++    public Flight(Countries arrival, Countries departure,
++                  String timeArrival, String timeDeparture, int id, int place) {
++        this.arrival = arrival;
++        this.departure = departure;
++        this.timeArrival = timeArrival;
++        this.timeDeparture = timeDeparture;
++        this.id = id;
++        this.place = place;
++    }
++
++
++}
+Index: src/homeworks/HW/airoport/FlightService.java
+===================================================================
+--- src/homeworks/HW/airoport/FlightService.java	(date 1513807404000)
++++ src/homeworks/HW/airoport/FlightService.java	(date 1513807404000)
+@@ -0,0 +1,88 @@
++package homeworks.HW.airoport;
++
++/**
++ * Created by nazar123 on 26.11.2017.
++ */
++public class FlightService {
++    private Flight[] flights;
++
++    public FlightService() {
++
++        flights = new Flight[2];
++        flights[0] = new Flight(Countries.POLAND, Countries.Ukraine,
++                "dlld", "dll", 10, 15);
++
++        flights[1] = new Flight(Countries.POLAND, Countries.Ukraine,
++                "asd", "sasf", 7, 4);
++    }
++
++
++    public void addFligth(Flight fly) {
++        reSize();
++
++        for (int i = 0; i < flights.length; i++) {
++            if (flights[i] == null) {
++                flights[i] = fly;
++                break;
++            }
++        }
++    }
++
++
++    private void reSize() {
++        boolean shouldReSize = false;
++
++        for (int i = 0; i < flights.length; i++) {
++            if (flights[i] == null) {
++                shouldReSize = true;
++                break;
++            }
++        }
++
++        if (!shouldReSize) {
++            Flight[] temp = new Flight[flights.length * 2];
++            for (int i = 0; i < flights.length; i++) {
++                temp[i] = flights[i];
++            }
++            flights = temp;
++        }
++    }
++
++    public void smartSearch(Countries arrival, Countries departure, int id) {//rewrite
++        for (int i = 0; i < flights.length; i++) {
++            Flight flight = flights[i];
++            if (flight != null &&
++                    flight.getArrival() == arrival &&
++                    flight.getDeparture() == departure &&
++                    flight.getId() == id) {
++                System.out.println(flight.toString());
++            }
++        }
++    }
++
++    public void watchAllfly() {
++        for (Flight fly : flights) {
++            if (fly != null) {
++                System.out.println(fly.toString());
++
++            }
++        }
++    }
++
++    public void searchFlyByCountry(Countries departure, Countries arrival) {
++        for (int i = 0; i < flights.length; i++) {
++            if (flights[i] != null && flights[i].getDeparture().equals(departure)
++                    && flights[i].getArrival().equals(arrival)) {
++                System.out.println(flights[i].toString());
++            }
++        }
++    }
++
++    public void searchFlyById(int id) {
++        for (int i = 0; i < flights.length; i++) {
++            if (flights[i] != null && flights[i].getId() == id) {
++                System.out.println(flights[i].toString());
++            }
++        }
++    }
++}
+Index: src/homeworks/HW/airoport/Main.java
+===================================================================
+--- src/homeworks/HW/airoport/Main.java	(date 1513807404000)
++++ src/homeworks/HW/airoport/Main.java	(date 1513807404000)
+@@ -0,0 +1,20 @@
++package homeworks.HW.airoport;
++
++/**
++ * Created by nazar123 on 26.11.2017.
++ */
++public class Main {
++    public static void main(String[] args) {
++
++        FlightService service = new FlightService();
++        service.addFligth(new Flight(Countries.POLAND, Countries.Ukraine,
++                "13:53", " 15:00", 252, 80));
++        service.searchFlyByCountry(Countries.Ukraine, Countries.POLAND );
++        service.searchFlyById(10);
++        service.smartSearch(Countries.Ukraine, Countries.POLAND, 252);
++
++        service.watchAllfly();
++
++    }
++
++}
+Index: src/homeworks/HW/FileManager/FileManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/FileManager/FileManager.java	(date 1492952001000)
++++ src/homeworks/HW/fileManager/FileManager.java	(date 1513807404000)
+@@ -1,14 +1,9 @@
+-package homeworks.HW.FileManager;
++package homeworks.HW.fileManager;
+ 
+ 
+-import org.apache.commons.io.FileUtils;
+ 
+-import javax.swing.text.Document;
+ import java.io.File;
+-import java.io.FileInputStream;
+-import java.io.FileOutputStream;
+ import java.io.IOException;
+-import java.nio.file.*;
+ 
+ public class FileManager {
+ 
+@@ -37,11 +32,11 @@
+ 
+         File source =   new File(start + nameFile) ;
+         File dest = new File(start + nameDirectory);
+-        try {
++       /* try {
+             FileUtils.copyFileToDirectory(source, dest, true);
+         } catch (IOException e) {
+             e.printStackTrace();
+-        }
++        }*/
+      }
+ 
+      public void convertFromTxtToPdf(){
+Index: src/homeworks/HW/libriary/Book.java
+===================================================================
+--- src/homeworks/HW/libriary/Book.java	(date 1513807404000)
++++ src/homeworks/HW/libriary/Book.java	(date 1513807404000)
+@@ -0,0 +1,56 @@
++package homeworks.HW.libriary;
++
++/**
++ * Created by nazar123 on 10.12.2017.
++ */
++public class Book {
++    // * 1) Создать класс Книга
++    private int id; // how to initialize int?
++    private String nameOfBook = "";
++    private String author = "";
++    //нужно ли ето поле здесь?
++    private Genre genre;
++
++    public String getNameOfBook() {
++        return nameOfBook;
++    }
++
++    public void setNameOfBook(String nameOfBook) {
++        this.nameOfBook = nameOfBook;
++    }
++
++    public String getAuthor() {
++        return author;
++    }
++
++    public void setAuthor(String author) {
++        this.author = author;
++    }
++
++    public Genre getGenre() {
++        return genre;
++    }
++
++    public void setGenre(Genre genre) {
++        this.genre = genre;
++    }
++
++    public int getId() {
++        return id;
++    }
++
++    public void setId(int id) {
++        this.id = id;
++    }
++
++    @Override
++    public String toString() {
++        return id + " " + nameOfBook + " " + author;
++    }
++
++    public Book(int id, String nameOfBook, String author ) {
++        this.id = id;
++        this.nameOfBook = nameOfBook;
++        this.author = author;
++    }
++}
+Index: src/homeworks/HW/libriary/Genre.java
+===================================================================
+--- src/homeworks/HW/libriary/Genre.java	(date 1513807404000)
++++ src/homeworks/HW/libriary/Genre.java	(date 1513807404000)
+@@ -0,0 +1,12 @@
++package homeworks.HW.libriary;
++
++/**
++ * Created by nazar123 on 10.12.2017.
++ */
++public enum Genre {
++    COMEDY,
++    TRILLER,
++    MELODRAMA;
++
++
++}
+Index: src/homeworks/HW/libriary/LibriaryService.java
+===================================================================
+--- src/homeworks/HW/libriary/LibriaryService.java	(date 1513807404000)
++++ src/homeworks/HW/libriary/LibriaryService.java	(date 1513807404000)
+@@ -0,0 +1,260 @@
++
++package homeworks.HW.libriary;
++
++import java.time.LocalTime;
++import java.util.*;
++
++
++/*
++ * 1) Создать класс Книга
++ * 2)  В классе Юзер добавить полей(пароль, роль(энам), логин)
++ * 3) Вся логика библиотеки должна сосредоточена в одном классе
++ * 4) Не использовать deprecated  классы и методы/ LocalTime
++ * 5) Удалить лишние коллекции
++ * 6) Продумать механизм взятие книги
++ */
++
++public class LibriaryService {
++    Scanner reader = new Scanner(System.in);
++
++    private final int OPENING_HOUR = 8;
++    private final int CLOSING_HOUR = 17;
++    private Map<Genre, List<Book>> libriary = new HashMap<>();
++    private List<User> userCredential = new ArrayList<>();
++
++    private List<Book> comedy = new ArrayList<>();
++    private List<Book> melodrama = new ArrayList<>();
++    private List<Book> triller = new ArrayList<>();
++
++
++    Book bCom1 = new Book(1, "Тарас Бульба", "Гоголь");
++    Book bCom2 = new Book(2, "Станционный смотритель", "Пушкин");
++
++    Book bMel1 = new Book(1, "Дикий помещик", "Салтыков-Щедрин");
++    Book bMel2 = new Book(2, "Злоумышленник", "Бунин");
++
++    User su1 = new User("user", "123", Role.USER);
++    User au1 = new User("admin", "123", Role.ADMIN);
++
++    public LibriaryService() {
++
++        // add books to list
++        comedy.add(bCom1);
++        comedy.add(bCom2);
++        melodrama.add(bMel1);
++        melodrama.add(bMel2);
++
++        // add genre and books to the libriary
++        libriary.put(Genre.COMEDY, comedy);
++        libriary.put(Genre.MELODRAMA, melodrama);
++        libriary.put(Genre.TRILLER, triller);
++
++        // add user credentials
++        userCredential.add(su1);
++        userCredential.add(au1);
++    }
++
++    private int randomNumber() {
++        Random rand = new Random();
++        return rand.nextInt(100);
++    }
++
++    // If libriary is open
++    public boolean isLibriaryOpen() {
++
++        LocalTime l = LocalTime.now();
++        boolean flag = false;
++
++        if (l.getHour() >= OPENING_HOUR && l.getHour() <= CLOSING_HOUR) {//move 8, 17 to constants
++            flag = true;
++        }
++        return flag;
++    }
++
++    public void watchListOfBook() {
++        libriary.forEach((key, value) -> System.out.println(key + " : " + value));
++    }
++
++    //    @SuppressWarnings("unchecked")
++    public void watchLictOfBookByGenre(Genre genre) {
++        System.out.println(libriary.get(genre));
++    }
++
++    public void addBook(String genre, String author, String nameOfBook) {
++        Genre genreUp = Genre.valueOf(genre.toUpperCase());
++        try {
++            libriary.get(genreUp).add(new Book(randomNumber(), author, nameOfBook));
++        } catch (Throwable e) {
++            System.out.println("java.lang.NullPointerException");
++        }
++    }
++
++    public void deleteBookByAdmin(String genre, int id) {
++        Genre genreUp = Genre.valueOf(genre.toUpperCase());
++        List list = (ArrayList) libriary.get(genreUp); // почему я не могу использывать list.get(i).getId
++        try {
++            for (int i = 0; i < libriary.get(genreUp).size(); i++) {
++                if (libriary.get(genreUp).get(i).getId() == id) {
++                    libriary.get(genreUp).remove(i);
++                }
++            }
++        } catch (Throwable e) {
++            System.out.println("java.lang.NullPointerException");
++        }
++
++    }
++
++    public void giveBookToUser(String genre, String nameOfBook) {
++
++        Genre genreUp = Genre.valueOf(genre.toUpperCase());
++        List list = (ArrayList) libriary.get(genreUp); // почему я не могу использывать list.get(i).getId
++        try {
++            for (int i = 0; i < libriary.get(genreUp).size(); i++) {
++                if (nameOfBook.contains(libriary.get(genreUp).get(i).getNameOfBook())) {
++                    libriary.get(genreUp).remove(i);
++                }
++            }
++        } catch (Throwable e) {
++            System.out.println("java.lang.NullPointerException");
++        }
++    }
++
++    public boolean checkEnterCredentials(String nameOfUser, String userPassword) {
++        boolean flag = false;
++        for (int i = 0; i < userCredential.size(); i++) {
++            if (userCredential.get(i).getLogin().equals(nameOfUser) &&
++                    userCredential.get(i).getPassword().equals(userPassword)
++//                    userCredential.get(i).equals(new User(nameOfUser, userPassword))
++                    ) {
++                flag = true;
++                return flag;
++            }
++        }
++        return flag;
++    }
++
++    private String enterData(String message) {
++        System.out.println(message);
++        return reader.nextLine();
++    }
++
++    public String userLogin() {
++        System.out.println("Please enter a right data.");
++        String login = "";
++        for (int i = 0; i < 3; i++) {
++            String nameOfUser = enterData("Enter your login: ");
++            String password = enterData("Enter your password: ");
++            if (checkEnterCredentials(nameOfUser, password)) {
++                login = nameOfUser;
++                return login;
++            }
++
++        }
++        System.out.println("You are blocked for a week.");
++        return login;
++    }
++
++    public Role userRole(String login) {
++        Role role = Role.NOUSER;
++        for (int i = 0; i < userCredential.size(); i++) {
++            if (userCredential.get(i).getLogin().equals(login)) {
++                role = userCredential.get(i).getRole();
++                return role;
++            }
++
++        }
++        return role;
++    }
++
++
++    public void libriaryMenu() {
++        //uncoment
++//        if (!isLibriaryOpen()) {
++//            System.out.println("The libriary is closed");
++//            return;
++//        }
++
++        Role role = userRole(userLogin());
++        if (role.equals(Role.ADMIN)) {
++            while (true) {
++                System.out.println(
++                        "1.Delete book from libriary\n"
++                                + "2. Give book to user\n"
++                                + "3. Add book to libriary\n"
++                                + "4. See a list of book in libriary\n"
++                                + "5. Close program\n"
++                );
++
++                try {
++                    switch (Integer.parseInt(enterData("Please enter your variant:"))) {//remove duplications
++                        case 1:
++                            System.out.println("You have choose between these type of genre"
++                                    + java.util.Arrays.asList(Genre.values()));
++                            String genre = enterData("Please enter genre of book");
++                            int idOfBook = Integer.parseInt(enterData
++                                    ("Please enter book id, which you want to delete"));
++                            deleteBookByAdmin(genre, idOfBook);
++                            break;
++                        case 2:
++                            System.out.println("You have choose between these type of genre"
++                                    + java.util.Arrays.asList(Genre.values()));
++                            genre = enterData("Please enter genre of book");
++                            String nameOfBook = enterData("Please enter name of book, which you want to give to user");
++                            giveBookToUser(genre, nameOfBook);
++                            break;
++                        case 3:
++                            System.out.println("You have choose between these type of genre"
++                                    + java.util.Arrays.asList(Genre.values()));
++                            genre = enterData("Please enter genre of book");
++                            String author = enterData("Please enter author of book, which you want to add");
++                            nameOfBook = enterData("Please enter name of book, which you want to add");
++
++                            addBook(genre, author, nameOfBook);
++                            break;
++                        case 4:
++                            watchListOfBook();
++                            break;
++                        case 5:
++                            return;
++                        default:
++                            System.out.println("You enter invalid value");
++                    }
++                } catch (Throwable e) {
++                    System.out.println("You have entered not integer");
++                    return;
++                }
++            }
++        } else if (role.equals(Role.USER)) {
++            while (true) {
++                System.out.println(
++                        "1. Take a book\n"
++                                + "2. See a list of book in libriary\n"
++                                + "3. Close program\n"
++                );
++                try {
++                    switch (Integer.parseInt(enterData("Please enter your variant:"))) {
++                        case 1:
++                            System.out.println("You have choose between these type of genre"
++                                    + java.util.Arrays.asList(Genre.values()));
++                            String genre = enterData("Please enter genre of book");
++                            String nameOfBook = enterData("Please enter name of book, which you want to give to user");
++                            giveBookToUser(genre, nameOfBook);
++                            break;
++                        case 2:
++                            watchListOfBook();
++                            break;
++                        case 3:
++                            return;
++                        default:
++                            System.out.println("You enter invalid value");
++                            return;
++                    }
++                } catch (Throwable e) {
++                    System.out.println("You have entered not integer");
++                    return;
++                }
++            }
++        }
++    }
++}
++
+Index: src/homeworks/HW/libriary/Main.java
+===================================================================
+--- src/homeworks/HW/libriary/Main.java	(date 1513807404000)
++++ src/homeworks/HW/libriary/Main.java	(date 1513807404000)
+@@ -0,0 +1,30 @@
++
++package homeworks.HW.libriary;
++
++
++/*
++ * Created by nazar123 on 26.11.2017.
++ */
++
++public class Main {
++    public static void main(String[] args) {
++        LibriaryService lib = new LibriaryService();
++
++        System.out.println( );
++//        lib.deleteBookByAdmin("comedy", 1 );
++        lib.libriaryMenu();
++
++//        lib.watchListOfBook();
++//        lib.watchLictOfBookByGenre(Genre.COMEDY);
++//        lib.addBook(Genre.TRILLER, "Тарас Шевченко", "Кобзар");
++//        lib.watchLictOfBookByGenre(Genre.TRILLER);
++//        lib.deleteBookByAdmin(Genre.COMEDY, 1);
++//
++//        lib.giveBookToUser(Genre.COMEDY, "Станционный");
++//        lib.watchLictOfBookByGenre(Genre.COMEDY);
++
++//        System.out.println(lib.checkEnterCredentials("user","123"));
++
++
++    }
++}
+Index: src/homeworks/HW/libriary/Role.java
+===================================================================
+--- src/homeworks/HW/libriary/Role.java	(date 1513807404000)
++++ src/homeworks/HW/libriary/Role.java	(date 1513807404000)
+@@ -0,0 +1,10 @@
++package homeworks.HW.libriary;
++
++/**
++ * Created by nazar123 on 10.12.2017.
++ */
++public enum Role {
++    USER,
++    ADMIN,
++    NOUSER
++}
+Index: src/homeworks/HW/libriary/User.java
+===================================================================
+--- src/homeworks/HW/libriary/User.java	(date 1513807404000)
++++ src/homeworks/HW/libriary/User.java	(date 1513807404000)
+@@ -0,0 +1,66 @@
++package homeworks.HW.libriary;
++
++/**
++ * Created by nazar123 on 26.11.2017.
++ */
++public class User {
++//     * 2)  В классе Юзер добавить полей(пароль, роль(энам), логин)
++
++    private String password;
++    private String login;
++    //нужно ли ето поле здесь?
++    private Role role;
++
++    public User(String login, String password) {
++        this.login = login;
++        this.password = password;
++    }
++
++    public User(String password, String login, Role role) {
++        this(password, login);
++        this.role = role;
++    }
++
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++
++        User user = (User) o;
++
++        if (!password.equals(user.password)) return false;
++        return login.equals(user.login);
++    }
++
++    @Override
++    public int hashCode() {
++        int result = password.hashCode();
++        result = 31 * result + login.hashCode();
++        return result;
++    }
++
++    public String getPassword() {
++        return password;
++    }
++
++    public void setPassword(String password) {
++        this.password = password;
++    }
++
++    public String getLogin() {
++        return login;
++    }
++
++    public void setLogin(String login) {
++        this.login = login;
++    }
++
++    public Role getRole() {
++        return role;
++    }
++
++    public void setRole(Role role) {
++        this.role = role;
++    }
++}
+Index: src/homeworks/HW/Plain/CountryArrival.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Plain/CountryArrival.java	(date 1492952001000)
++++ src/homeworks/HW/plain/CountryArrival.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Plain;
++package homeworks.HW.plain;
+ 
+ /**
+  * Created by nazar on 3/20/2017.
+Index: src/homeworks/HW/Plain/CountryDeparture.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Plain/CountryDeparture.java	(date 1492952001000)
++++ src/homeworks/HW/plain/CountryDeparture.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Plain;
++package homeworks.HW.plain;
+ 
+ /**
+  * Created by nazar on 3/20/2017.
+Index: src/homeworks/HW/Plain/Flight.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Plain/Flight.java	(date 1492952001000)
++++ src/homeworks/HW/plain/Flight.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Plain;
++package homeworks.HW.plain;
+ 
+ /**
+  * Created by nazar on 3/20/2017.
+Index: src/homeworks/HW/Plain/FlightService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Plain/FlightService.java	(date 1492952001000)
++++ src/homeworks/HW/plain/FlightService.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Plain;
++package homeworks.HW.plain;
+ 
+ import static java.lang.System.out;
+ import static java.lang.Integer.MAX_VALUE;
+Index: src/homeworks/HW/Plain/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Plain/Main.java	(date 1492952001000)
++++ src/homeworks/HW/plain/Main.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Plain;
++package homeworks.HW.plain;
+ 
+ /**
+  * Created by nazar on 3/20/2017.
+@@ -6,7 +6,8 @@
+ public class Main {
+     public static void main(String[] args) {
+         FlightService service = new FlightService();
+-        Flight flight = new Flight(CountryArrival.POLAND, CountryDeparture.UKRAINE, "13:53", " 15:00", 252, 80);
++        Flight flight = new Flight(CountryArrival.POLAND,
++                CountryDeparture.UKRAINE, "13:53", " 15:00", 252, 80);
+         Flight fly = flight;
+ 
+         service.addFligth(fly);
+Index: src/homeworks/HW/Train/CityArrival.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/CityArrival.java	(date 1492952001000)
++++ src/homeworks/HW/train/CityArrival.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ /**
+  * Created by nazar on 3/26/2017.
+Index: src/homeworks/HW/Train/CityDeparture.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/CityDeparture.java	(date 1492952001000)
++++ src/homeworks/HW/train/CityDeparture.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ /**
+  * Created by nazar on 3/26/2017.
+Index: src/homeworks/HW/Train/ComfortClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/ComfortClass.java	(date 1492952001000)
++++ src/homeworks/HW/train/ComfortClass.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ /**
+  * Created by nazar on 3/26/2017.
+Index: src/homeworks/HW/Train/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/Main.java	(date 1492952001000)
++++ src/homeworks/HW/train/Main.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ /**
+  * Created by nazar on 3/26/2017.
+Index: src/homeworks/HW/Train/Train.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/Train.java	(date 1492952001000)
++++ src/homeworks/HW/train/Train.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ /**
+  * Created by nazar on 3/26/2017.
+@@ -53,7 +53,7 @@
+ 
+     @Override
+     public String toString() {
+-        return "Train{" +
++        return "train{" +
+                 "carriage=" + carriage +
+                 ", comfort=" + comfort +
+                 ", arrival=" + arrival +
+Index: src/homeworks/HW/Train/TrainService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/TrainService.java	(date 1492952001000)
++++ src/homeworks/HW/train/TrainService.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ 
+ public class TrainService {
+Index: src/homeworks/HW/Train/TypeOfTrain.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/homeworks/HW/Train/TypeOfTrain.java	(date 1492952001000)
++++ src/homeworks/HW/train/TypeOfTrain.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package homeworks.HW.Train;
++package homeworks.HW.train;
+ 
+ /**
+  * Created by nazar on 3/26/2017.
+Index: src/lessons/learn_class/LearnClass.java
+===================================================================
+--- src/lessons/learn_class/LearnClass.java	(date 1513807404000)
++++ src/lessons/learn_class/LearnClass.java	(date 1513807404000)
+@@ -0,0 +1,22 @@
++package lessons.learn_class;
++
++/**
++ * Created by nazar123 on 23.11.2017.
++ */
++public class LearnClass {
++    public static int age = 45;
++    public  int agei = 45;
++
++    static {
++        System.out.println("Static block initialization");
++    }
++
++}
++
++class TestClass {
++    public static void main(String[] args) {
++//        int age = new LearnClass().age;
++        int age1 = LearnClass.age;
++
++    }
++}
+Index: src/lessons/learn_inheritance/Bmw.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lessons/learn_inheritance/Bmw.java	(date 1492952001000)
++++ src/lessons/learn_inheritance/Bmw.java	(date 1513807404000)
+@@ -38,6 +38,8 @@
+ 
+     }
+ 
++
++
+     /*@Override
+     public void run() {
+         System.out.println("Run");
+Index: src/lessons/learn_inheritance/Car.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lessons/learn_inheritance/Car.java	(date 1492952001000)
++++ src/lessons/learn_inheritance/Car.java	(date 1513807404000)
+@@ -21,8 +21,7 @@
+     }
+ 
+     public abstract void getCount();
+-/*
+-    @Override
++    /*@Override
+     public void run() {
+         System.out.println("Run");
+     }
+Index: src/lessons/learn_inheritance/Printable.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lessons/learn_inheritance/Printable.java	(date 1492952001000)
++++ src/lessons/learn_inheritance/Printable.java	(date 1513807404000)
+@@ -11,7 +11,9 @@
+     abstract void print();*/
+     void print();
+ 
++
+     default int getNumber() {
+         return 5;
+     }
+ }
++
+Index: src/lessons/learn_inheritance/TestInheritance.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lessons/learn_inheritance/TestInheritance.java	(date 1492952001000)
++++ src/lessons/learn_inheritance/TestInheritance.java	(date 1513807404000)
+@@ -5,15 +5,16 @@
+  */
+ public class TestInheritance {
+     public static void main(String[] args) {
+-//        Bmw bmw = new Bmw("BMW", "X5");
++        Bmw bmw = new Bmw("BMW", "X5");
+         Car car = new Bmw("BMW", "X5");
+ //        Printable bmw = new Bmw("BMW", "X5");
+-//        Runnable bmw = new Bmw("BMW", "X5");
+-//        bmw.run();
+-        /*Try aTry = new Try(bmw);
++        Runnable bmwR = new Bmw("BMW", "X5");
++        bmw.run();
++
++        Try aTry = new Try(bmw);
+         aTry.print();
+         Car mercedes = new Mercedes("Mercedes", 220);
+         aTry.setCar(mercedes);
+-        aTry.print();*/
++        aTry.print();
+     }
+ }
+Index: src/lessons/learn_inheritance/Try.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lessons/learn_inheritance/Try.java	(date 1492952001000)
++++ src/lessons/learn_inheritance/Try.java	(date 1513807404000)
+@@ -1,6 +1,9 @@
+ package lessons.learn_inheritance;
+ 
+ 
++import java.util.ArrayList;
++import java.util.List;
++
+ public class Try {
+ 
+     private Car car;
+@@ -28,7 +31,7 @@
+         return car;
+     }
+ 
+-    public void setCar(Bmw car) {
++    public void setCar(Car car) {
+         this.car = car;
+     }
+ }
+Index: src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java	(date 1492952001000)
++++ src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java	(date 1513807404000)
+@@ -4,7 +4,7 @@
+ public class TestPolymorphism {
+     public static void main(String[] args) {
+         Animal[] animals = new Animal[3];
+-
++        
+         Animal animal = new Animal();
+         Animal mouse = new Mouse();//Animal + Mouse
+         Animal lion = new Lion();//Animal + Lion
+Index: src/lessons/learn_inheritance/low_coupling_code/Furniture.java
+===================================================================
+--- src/lessons/learn_inheritance/low_coupling_code/Furniture.java	(date 1513807404000)
++++ src/lessons/learn_inheritance/low_coupling_code/Furniture.java	(date 1513807404000)
+@@ -0,0 +1,64 @@
++package lessons.learn_inheritance.low_coupling_code;
++
++/**
++ * Created by nazar123 on 10.12.2017.
++ */
++public class Furniture {
++
++    private Gun gun;
++    private Fun fun;
++
++    public Furniture(Gun gun, Fun fun) {
++        this.gun = gun;
++        this.fun = fun;
++    }
++
++    public void actionGun() {
++        gun.print();
++    }
++
++    public void actionFun() {
++        fun.print();
++    }
++}
++
++class NewFurniture {
++
++    private Drivable drivable;
++
++    public NewFurniture(Drivable drivable) {
++        this.drivable = drivable;
++    }
++
++    public void action() {
++        drivable.print();
++    }
++}
++
++interface Drivable {
++    void print();
++}
++
++class Gun implements Drivable {
++    public void print() {
++        System.out.println("Gun");
++    }
++}
++
++class Fun implements Drivable {
++    public void print() {
++        System.out.println("Fun");
++    }
++}
++
++
++class TestLow {
++    public static void main(String[] args) {
++        Drivable gun = new Gun();
++
++        Drivable fun = new Fun();
++
++        NewFurniture furniture = new NewFurniture(fun);
++
++    }
++}
+Index: src/learn_scanner/LearnScanner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/learn_scanner/LearnScanner.java	(date 1492952001000)
++++ src/lessons/learn_scanner/LearnScanner.java	(date 1513807404000)
+@@ -1,4 +1,4 @@
+-package learn_scanner;
++package lessons.learn_scanner;
+ 
+ import java.util.Scanner;
+ 
+Index: src/testing/mocking/UseMockito.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/testing/mocking/UseMockito.java	(date 1492952001000)
++++ src/testing/mocking/UseMockito.java	(date 1513807404000)
+@@ -32,6 +32,8 @@
+         Mockito.verify(imitationDB, Mockito.times(1)).getAllRecords();
+     }
+ 
++
++
+     /*
+     * method{
+     * int a = method1
+Index: src/testing/powermock/UsePowerMock.java
+===================================================================
+--- src/testing/powermock/UsePowerMock.java	(date 1513807404000)
++++ src/testing/powermock/UsePowerMock.java	(date 1513807404000)
+@@ -0,0 +1,49 @@
++package powermock;
++
++import for_testing.mockito.ImitationDB;
++import org.junit.Assert;
++import org.junit.Test;
++import org.junit.runner.RunWith;
++import org.mockito.Mock;
++import org.mockito.Mockito;
++import org.powermock.api.mockito.PowerMockito;
++import org.powermock.core.classloader.annotations.PrepareForTest;
++import org.powermock.modules.junit4.PowerMockRunner;
++
++/**
++ * Created by nazar123 on 10.12.2017.
++ */
++@RunWith(PowerMockRunner.class)
++@PrepareForTest(ImitationDB.class)
++public class UsePowerMock {
++    @Mock
++    ImitationDB imitationDB;
++
++    @Test
++    public void shouldMockFinalMethod() {
++        Mockito.when(imitationDB.print()).thenReturn(10);
++
++        Assert.assertEquals(imitationDB.print(), 10);
++    }
++
++    @Test
++    public void shouldMockStaticMethod() {
++        PowerMockito.mockStatic(ImitationDB.class);
++
++        Mockito.when(ImitationDB.printStatic()).thenReturn(10);
++
++        Assert.assertEquals(ImitationDB.printStatic(), 10);
++    }
++
++    @Test
++    public void shouldMockPrivateMethod() throws Exception {
++
++        ImitationDB imitationDB = new ImitationDB();
++
++        ImitationDB spy = PowerMockito.spy(imitationDB);
++
++        PowerMockito.doReturn(45).when(spy, "printPrivate");
++
++        Assert.assertEquals(spy.forPrivate(), 45);
++    }
++}
+diff --git lib/cglib-nodep-2.2.2.jar lib/cglib-nodep-2.2.2.jar
+new file mode 100644
+index 0000000000000000000000000000000000000000..02d81e8804001956c22b05c8e18cec1e596efc76
+GIT binary patch
+literal 326917
+Hc$@<O00001
+
+diff --git lib/hamcrest-core-1.3.jar lib/hamcrest-core-1.3.jar
+new file mode 100644
+index 0000000000000000000000000000000000000000..9d5fe16e3dd37ebe79a36f61f5d0e1a69a653a8a
+GIT binary patch
+literal 45024
+Hc$@<O00001
+
+diff --git lib/javassist-3.21.0-GA.jar lib/javassist-3.21.0-GA.jar
+new file mode 100644
+index 0000000000000000000000000000000000000000..64549c4adae36e5697244db14c887fb1e5f03aa6
+GIT binary patch
+literal 734815
+Hc$@<O00001
+
+diff --git lib/objenesis-2.4.jar lib/objenesis-2.4.jar
+new file mode 100644
+index 0000000000000000000000000000000000000000..f76ea51ff5fe5910dbc7a98858344debfc66a1da
+GIT binary patch
+literal 51287
+Hc$@<O00001
+
+diff --git lib/powermock-mockito-1.7.1-full.jar lib/powermock-mockito-1.7.1-full.jar
+new file mode 100644
+index 0000000000000000000000000000000000000000..1b3eef2dca1f0f7ddf285474e5e05133878ae8ee
+GIT binary patch
+literal 789489
+Hc$@<O00001
+
+diff --git out/production/console/for_testing/mockito/ImitationDB.class out/production/console/for_testing/mockito/ImitationDB.class
+index 8278c9690b56c50bf830c9de25eb0d1d7f2d7060..c9a4a4f674f971a6d061758a4a079b4f5d102ef7
+GIT binary patch
+literal 1604
+zc$|e(ZBG+H5Pr5VcjY*s7K$J$qP$#-a)9_+1QBA=q>;oLO!b4g_LjPMy-TiJqW?-0
+z4WiK>;EyuSUMoUd;+MJEnR%XhX7={i?{7Z=tl_bNVJzsd48*W7fFa~`<WpEo;bscA
+z3@pJO#4=WtSykq?jx`;37!s}{9fox2z&Uj6mK2^{5=~iP7$}Rn@5olj8D_iE>+Q4W
+z_;tH1L*ds88wAnTg)ig=L)^;k5%+fB5_qH}eEzJ}sPgcIQ}rm4DFrph+jByp&YfUF
+zz7<V|nbLj`zLC5siPdfdwRb`WcCjI(BSqlvJfS{AbuPC&?>Vmpp-Y&ImFv|%-xEAX
+zwITc_59Lm@h^*CHq-N2A>H)7wrM)LlS(kfUsv)eRs!j^u<?k6-k?6}oE3EOSLJgTd
+zHOP`8GBJuVhS7gYx5Ci*pyZkuL7E`l{TTG!NX*KKw|e5y#oje>5BGIEF!2xt6YF?n
+zVgs8D)BjoRnP$74fzw^mXy2OCR00|1tk<P(M4``J44;iC2G^w<WSF#0Rc{BLM+~H;
+zkb6ac5fyda$ln%})k59~4!J5Q=6XvoL(gECo(H2hL5rmC1v<r$L4thRI@v5m_K_qH
+zSk51T<-a3VIYRsk68X<aXg`pw#4}pClE~=gN-~owf5pHtj2K>iirB`<Dn`H{J4l^O
+z*wpzVMa(uYCNLT4xP&P}sGc^RR4%ESd^{o2qG0+IIN1TWrC+Al6<qBI-=RoMRVtFj
+zV+@`VWkk6#l9Y}3#@n?WKIKj0S|noz*ZVO}9mDLyI6;h)=P=&DY{WPhVdnn;fnfQ&
+
+diff --git out/production/console/homeworks/HW/FileManager/FileManager.class out/production/console/homeworks/HW/FileManager/FileManager.class
+index b968f793326b775305eb26501df7b3c67e43f5cf..a49e5d7dd84355269d4519fd99e4a70432dee5fd
+GIT binary patch
+literal 3377
+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
+IuCJ4S16!xlVE_OC
+
+diff --git out/production/console/homeworks/HW/Plain/CountryArrival.class out/production/console/homeworks/HW/Plain/CountryArrival.class
+index 132a5761e5b9707c2fc004e09bb22fffc6428021..f3a5d55b6c43791ddecc0b3c60ca898faab072b3
+GIT binary patch
+literal 1267
+zc$|$>?@!ZE6g}O#wJQb2__;9<6mSD&q9EudQU?gJZiKR#M!%F<q1bgvw_*G*{6qX8
+zBN3y~@Yz4gcwcD@i$vEY=k&aL?|JvWz5e|5^#_1OtVh7(o<wg;0wx69moS871}h?l
+zB?_*vj0Ym(j30_fFwTk?Wt<a{Wc*0P7~@qD<BT5*SmPj+p6x2zg$)ij)WcfUd{=Yd
+z)-zi#GCQ_mIhlN|=``H;itAd(hMnaQ-YKd|VVw$}7uEG*S)sSBQsHT7SLYDYcF2p8
+zHg}amo;*X_dx}Z{VXCaCr45b4)XUDcA!?d+4l}8AXBB+D_S)pot6Gj(Xjb=4chA_j
+zX+`j?if=e9r_>|k*vQz1bCA&*uH_tL(;b<|)LO-`%Z6()Pv4k#jH=0Ef0<JMIm@vc
+zs~m=|*mFBwrs~F_Me{{8>%cJ@O_!X4DHafO727Xfx>UR2G^@D|nq8&cC9T$UE9R!f
+z+U##nm}izUuCbdmAw$6v4wL`2l`)OHj9JXd7{-W<ID-U(Q3go{V+_VI!l9?VZ@LH-
+zyXH_c1F7_-nTq>IW~D(5FI_&RylvF$*{lAlcGv9M0$t-F`bNaHIO_@^j{BVOdDQ2m
+z&tpE1Gma+ML68HF2qtkI^cj$1%pR!)?lS`C2!0|(mzOZ?#ln<7jTt|G5dm*iit)2w
+z5IP6X@&j%8Hwop7EToY3;&hyZ%wYjR`T@f1T=ERzlYf*8xW!t>Z7*jYA~J**jeMj*
+z*z@5Vcs(Wr&mf*6;t7fOM3*PzkSDr5(G&JWuP35{C;B`Q6Ft%IiGk=v-e6StPCD44
+zyQ}jpbZL61g>Fp`x6rHULJNJGF1FCG=}}r5)K0;j{5d{}dS)}cqL~8z40mXJ#&>@M
+DOtc9V
+
+diff --git out/production/console/homeworks/HW/Plain/CountryDeparture.class out/production/console/homeworks/HW/Plain/CountryDeparture.class
+index 2e400a3a4916d519245200932f3157a45f4cc24b..c591b0f6e032eef15b9a02f8ef7ae55c9c43b8e5
+GIT binary patch
+literal 1281
+zc$|$>ZBNrs6n?sOYgY=4@wzb(6>tM(q9EWVGB*%n-3VnfjeaS!Lb2=2UNHU(e~2Gs
+zBw{ogKl`JM=Uy5EO3b?CdHURQ&U4SXz5Ds=%Xa_^$cG@}u0n5%5+)?vQ!s=j2Fo&r
+z6$&o1j1?JC#`k5!7^h{7GS0||GkzdrjPa_BamEiNtO<}xPj<3fg>?Z_+Ci;qy{*+>
+zH&UC=QrnJcyQy5Q<u>c@^41%(-fY#aw1D7tQOg$cRQj~2<%{Jky=|5Xk4rm-fPlVD
+zZj`jKlP%=PHL$gt)hHlMma|%ET^BI@ywi=2Os8cv1SAs4PHV(m?WHB4SF>HK(5miP
+z^<8t%p%san6<-NhNoa@Wk(qK#cR!^!>$ba}PIhP?(P|abDVuehxq8;3YgR25`^T1M
+z$k?vkToo{M$*x<;GF3MZY??8o+xxD`wh`b@uz;MYI9~D6x!QHNRn2tN?kerC=(Se8
+zVr|&0(ZRn{=9sODE9_QHsL0}xfa@JttC&Jg#SCUu3}Zw^ltGNaD1$hIF$Uup5zuq7
+zd%6@Ar{+>a1Bv9h$%=c2R;5WzFP=ZEoMSc`>B~OZMc4G&JYDJ``p3v?QPvee9Q8Qn
+z@u<gfkH<V7XB>{PqaX(nAzZ~Z&}ooj%pRo;;S+p6;QvTUz$9Ui$AXkUg=sH;0Y1K}
+zM8uiT2>gJ^@_iTbZxE_ySx6ws<8+*a%wZmW`T^3+Z2T0#<NuUPxXD__EuJ$687acE
+zMn2FW?0Nqcq7jk&r;tw&;zAL*=;A^RaM8_0PmqgVF2WKQeOyFjF8a9`2%qH*hNW+$
+z{cXCzhS)}zZUoxs){S5ry}BW_(We`78~wTwrlmps1j6y3<5Q?-Hp2^=$>+^*o5p8+
+F=QmOg4<G;l
+
+diff --git out/production/console/homeworks/HW/Plain/Flight.class out/production/console/homeworks/HW/Plain/Flight.class
+index 85cce012bbf82f1016e492c005d6994d4e337f99..658e02b5e249779f9b21a08ec259159805f6af95
+GIT binary patch
+literal 1878
+zc$|$??M@m|5IxJsvf!$SQcKl}S_-Tnt<`=hZ53;!rD~$F>CXi=xE6t~i%rw?4f-Jc
+z(I0J6Flm!MKp(2<+`EVbR$@qI&Yhhz_sq-<fB*gZ17HceK3v1H7eU--<^eMgnR&#_
+zV`f%7SoJ}|vV=7APndZs;hBUr2G=EIBy2GFT*4;vFFe@tAS=M58iszVmIch^4y(u7
+zhpO@JB(?P>wOdy8N-9&WS4`vMnw7L7z+2R6s$td*O+cg%W8*xHI0L4BtgW5j6UZH@
+zr)sLKR!XTo)6gp=N*QD+8yBS=dQpHt`rNg$TA+Zqs#kRLiGcU9E9ktEuwEU#k!&`8
+zAi$NW7D>Z!POoU&_2ax|?5p{*#(Jq1)bfF9=<M7Iy39lUM8Jfdh|RKIIy9+aUr96D
+zBZ<V~R~o)dq>dp)`_ei$Fhs=t&LxZy)n*O;R$j*?ZVF{-8O~Uo)*;bp*V>3=RxKVi
+zvsbMf1#MGj?GIQzF0k@4X7EzRIIhbG;f9O}Ov;#I<|d|PgfT5(yj#e6T`w0kg9dJu
+z`qX-(X&JAOW9Bu@A`xys#WbZR!X2+H9c5YD0!FNGyPtHFI!c7~BCoYWT_nQ%h0%Et
+zNdcitmqydM5W15;(h4S@3cU|et<|&&4JjGxooer(Tm7wc<y$rT=1;~l{Xb_f|4ge0
+z(q9Q6!ofB|$ibGvJ?(}2sg|eha3AJgf<Ww9vU7C$N^uYQ+sYXPWxfH2l4!uGBpYxk
+zAy)%#CFpKIRDxmyo*%r<EwZyz2N;G6et0p0Ap|f=zYxagmLMXeE<zbwR(1MC0gjkj
+zfg`5Z!4XsJ<cMi@al}-+Ibym+;=~YdsZNn+HQdTiIKH<<i98tM7t2;c>tX>4=55H%
+zZt|2ZIf0}N+0{*+u_Z6qlHJ|ph%GsVJ2qtTTNgQQOTKGM_H>hzw&caO>@SqfzU6;I
+zdV2<Mz}Lh8n|u>;V9>%&hKDTdBIl1bF&yw)0e3qvVg<w|0)bHrdkFhK)5j*px@WT3
+Np)B84c8_N*{Rc2kd{Y1b
+
+diff --git out/production/console/homeworks/HW/Plain/FlightService.class out/production/console/homeworks/HW/Plain/FlightService.class
+index d8d79b0afd56b82b270f64fb93f2307303afe02d..7cff789ee992d92fab116a0fee4cf722289707f2
+GIT binary patch
+literal 3030
+zc$~GCTT>Hf7{~w1ZrCI&7$U(&Kmm(}g9L)2MMV)rXv0B+c%aoTVS&{gaI-<_N!!}?
+z8#v=#hw12bnO2>4%B7v@^c(c5H=XG>=(MBs|84>(<>W<S=H2H#Jn!>+PP_T##Se=B
+z4&f^my<Sw~tcpGl_M%_Dv$VA2#oKttgD3_(7{rhp!)~1OLdJP9kGV18#s#rID&`m6
+zxa7v=!c!qQe?t3;I6daUyLiuwtGFhn?~6hAQf*vFaW5uvlA&T!#gqhfGGR_l+ZhR!
+zW6|k!(zunjZe+rJ7sJB|-Asjho$X^13Xhv9)9#cYhw4WqDBbA^L&A=znKA~m$#KIP
+z(Z>^9@ki5fJu#|VrkLj!6?@vGiQ0`V#0+cJj2krMPU^Qu^+c9xQon?P$%KT8P0>91
+z#DtjG(-QWCHaRN5C6g{pCgvm*$80@*V?dwDL+;3AO<RavmSxWBG`oM@%evFqlx@xB
+zPdS&W`m)NtZD^>dl@QwO?jB=Cx9qHCIJbKymZuWxwxuP(t0xk@%c(7ir&Dpuh}*dp
+z<|EWEE-o-9Bot+m)QTCp6=(deZpY<qF+{KHvwAq8r>4R&+cHyA#~hnQwwYXwu>ZfO
+zB)Dc0dYry`W9h6FH+oH{u3o8=W}zmbbXB`QWgAn5rC}f5ln~so2sG57R>iai6W3MT
+z(2zj8ill}VI%vB!(s8(r<zC%-w4<d(T$k1`liNC!--<+>t($1qVCA-2mbDH$TN%($
+z7PBgDX}FC!6(4B$5Fcsy7@ugkgS#3&#b+8m$2}EaX!sI$B~)+K9uj=39uJLQXG)pf
+z)ujPl^nk37XL31a|I}=mPL^-qg~78I&R=HvZX>gFv-f=0VD}jbH~+_KS*L!S0&>NM
+zyZQ(D>>ufh5?LJ>iuMeRcF|)!o^~AXsqbO+Od0lyhjpR)ZIHea-q>8mHj<2HI?Esj
+zayVu>JWLjwM24QE!p?P;$uuKoi4^rh(X|<KdRimhOA$S=Dc{SD?V@7;g!39^b_<Q0
+zSv`^2z|IvG2ak`u+;L^Jv`)|Y)~@kIOx0o0iR_rY{9plmV~Fmdq*7+1ajfI)SBP&4
+zkZO2>f(D=WC&=GJ@w<-uo<Bw5#UCMGUVyp)x8LLUmSUk4_n)9>py4|xa#Kt^l$A4@
+zzt~?=N}$_3;_SI{dpj23^OySlrBbW!n%Mi677MVS<9>LYkD!7g6hniLV>wFDOzAL6
+zaSl6?L;wePsyauC5bF8#@k`l&M*7i=Q)t3L-YDd7-m`CbTH!P7cbzE1&Zh`mk~^ye
+z)#5xV#j`5%Gm0IdG4=?ad$ROs>34x9J7~3VbKK2Y1pzAwQH4GHuVY9<oHz4?z-piw
+zjdBZN1YkH1D5O?mG2z4$s0D~{wFvTaXp&U%H(cCo;}44*@qHdB6hAZs(?HW=r`)at
+zl&X2uH3gJNhb!oMhO(gRG0GbsqG$oTg#5-mh1kEXVwdw)5!YRWt0T%m%55~h9Kl^Y
+zA+TJ|Pnu=aLyUGiIRsz{<QFJXaYT}8{>n2ReO<=j){M<$3G>z#(lpaX+m?)Pp<_eF
+zV=Fa%myAL)Bp9QOizk@(%6U{YRz*6Lpz<uor3fyO@;}yc9YGoW4boZ-<pbz+xXO8J
+z8LLxpiMk5qxmIYr4o!KE<~UBgZp3z1e7#k~PBSvyytRi6rx~xaTSlzY>5%m!c9MOQ
+zWBikhq7TOeqd;10FO=KWfEp;AM_<qtP$M1gp!*rxgKklNk5Tae4MGk!Jw%NVDi1zJ
+z)dK{CyeFXKU2zLnRJ!tHZC^#%K?6+xAVWPwhlaUw4kH||a1?HJGHjLH6>bTQu@$$*
+n^2I77Q4$4?)Wwj<j?_)36~}3xaJs~C`X8Lhx!vQue9rs}j7pj`
+
+diff --git out/production/console/homeworks/HW/Plain/Main.class out/production/console/homeworks/HW/Plain/Main.class
+index a3660ac5e1fb46307940a8a3780d8db61dcc9523..1438e87d57974ac6c9fa3b996e970d6fdc846948
+GIT binary patch
+literal 1183
+zc$~FU?QRlL5IvWVUD&RcQl-{v3&mCnr3)7PXpISJZ6qQkqBV_)$pTy0x`195OdrEX
+zu|G;;6Cc25GRC<J+B602ANR-1?##J!&dkpJ{`2cM02w?|a0Ou*5d|*c7yXFhjvq@{
+z_TjD%F$Es1h-6%tgp5@gNe1b$*)r`X4DQ&<9)oAAT{9Ra3uenGcAFK0ztSrfMS_KP
+zRk!wZZi??=&|^2u4#RAr(QX=_+WdV-d-g^vS-RQMUXa-&NRvE6DE78+sP}Zu(pz<{
+zY;&_!-*gCdUZ)b%Bhn0V$KXA)N=%ERD0VEf-muF948f%XC%`Z_9!)U!fpx^7l-pfi
+zHFiwVh+n8(6ADyZ#Uw-cUv$*<Scr@@6&g}9(kkv@oxz)4-^h}e!s+ZrDkVrVDzdn*
+z;sG8q%#0ZzL*Q&IyOl$uO5H_9fVbM+md%fHoSQw}BBIi6Ay?dHh>jY?c{GhAIv%ub
+ze9*bw<<znK`uWRTzW9`3=`U6P9H6=%W0#=6RIQ8aaWRt5i;eQ@wVL=3c7tJlB>!*|
+z1bCv;B!aS`^D4pL{YSZ^4H2kxOU2^?6N^SRKwlbpM&29mgMD$*Q)DG4C?QBz9RM(m
+zYvld7j?nP%XZYx91KCr!_WN)bPT|=<hW8j!P!9U0@FP&_(}u4W6Uh@OiQlO}=>!vJ
+zWH*TjRLV!i7oa#=mq~4gR0;v{0SRVs!@(snOJ^8iLzu%YsuCe-x9QDI(Rrut!Y}ME
+BF-!me
+
+diff --git out/production/console/homeworks/HW/Train/CityArrival.class out/production/console/homeworks/HW/Train/CityArrival.class
+index 40a3783e8cca03bfb5713fb4751157aec6d21a18..eca3a6b65337531f1a85021ca7d100378daab475
+GIT binary patch
+literal 1348
+zc$|$>ZBr6q6g?{oyR4Y_o^J?f23nGay<sLQDzPIDOEgTMRw7-)Wo8Adf0a0sjZKZ8
+z`vLu&rh6ZE8l4<%nK_4Z@40vHeR%l!`}7BZBy>MyJk{_FDFu@X7BmduIm4ogVU3cD
+z?0BJKlzB--h&iodjCol_n0ZA-gn3m(lsThfoOw;f1oOIr4GFSd%9bRA_1*e@^+Vlx
+ze~{RCohUk{WhYjw#;3I7SchgUB|$A_3Y+<@tS-T~zM9@Na#WowbG4G&NEdSa&9}Ol
+z-74fMw3XM3=~7yPce#);id0`p7mN)NQYK1i{Z+=05P5U+i+x1R>VbsuSo}Zi@=E<}
+zRYIq3+11VF{&v+Vn%gysD56jPorGje-!l)*M9s8!5=O(Z?44Bn=FZ)Ey<*l%rekqK
+zx2tTM`&G{U(~%}$uxzWbD53v~7iQyhUUFmCqRsq<wPTx&rbC@PF;1upm6}^TccC_8
+zH}@BAnskv~tr_*EQ>m_5JY(=ec7~e;aEEW!WB^&bln}bUVF1&}1@Hi~0Ssd#fKi4J
+z!x%%DA;J)47-yKkh=g002dBGGsnu;7s5chBuvC6~uUcu)(DN6MX{BZ!9Hg%Lp)Pk#
+zEzQzx9-_aFwlv7|0mP#&hg=?WIqY)8<*3W!E>AEAhxmM`qYOXpA_fU@Qc+@lv=*c<
+zXgh=FGbssEgg%k;k$)QZTz?X6BC2)EQ(xgdgUtT6OaA+WfpZsTkPvw~XhQBV3lDt&
+zWomll1iqtd$`#D<=y)hRNvN17JRjs2EyB;~H^}8~#d8An7=9r%S%`Ka0$w3Hgt+As
+zqEm>VB1D%E-Kr2hLi7gDeSJdpyT$>bZU@hugF*jy(w-Jw^s?MSyHWPG&|#E)Ep!@X
+trG+k|thUf&l!FxNBcj*<5d{a0V@OAT4_c$`c-xP(eVe=OBRm%T<PXRB5s?4@
+
+diff --git out/production/console/homeworks/HW/Train/CityDeparture.class out/production/console/homeworks/HW/Train/CityDeparture.class
+index 8b7b859c4fa3a421ae9a80ff3ac1679b852db715..7ffdc0d776b400fe33d0eabbe83e03fff5cedf0d
+GIT binary patch
+literal 1362
+zc$|$>Yf}<o6n<V=*=5B<x|nwbEzpWAwF_pVq7XacutdZ3X{F7!aA^>%{#D{kHa0bW
+z?g#X9n$CIIX>@YZ-I?dv=iJ_N4lh4{AN>F@3nKspk90gnQpF7w3pxhygke#`pia(3
+zj(DnJn0ZOV2y;rqDD$$0G3FHw<IJlXBFt$GQRX!b6U^%>G6ITG%9aEo#+%xX{h?NW
+zx0}ekNEGXq<0e*|#-~;Ly;W~C>vmE=E2aw@`OT~$;9p-&ZJ0UA&y_h}&1F)B9Dn&&
+zH?o_BJefB0Mln@N33M(O(q@tJOR0jHktTJblro;DO@ZjkiyZCWv#L#dS70(0zfgj*
+zQhQ|!^caq7Z!~wd?0V7Ks***OmGZ9z=3~ZNYtKqlEq6O%HtLSMos3_kcG##@tZK=s
+zJ6zJMtGL#V&AxwXQuhmv>ogVxuAOmYHcnep8gCq$E?_#_uEoa)_+sqP7AjRQdG<tZ
+z+HLMEoZssr9j=?TX1!vsIoxIVl>ZJF3}TXR*^MBwcqTA*UeO??kqhE3W`Y>RP!Pim
+zBMhSqV+`XA5r!zk1cn4Ioo=7*MWtGEsi`Zm_=(Z-TW{@3gBqVZxvZ6{wY!@<>jyhs
+zHMulHcYA>TNcvJg_XiLUdpzRtsK;X-k9!>PIO_2Pb7+7!L=_bTa1${I#7RYn`O#Yt
+zU(j(3-)B++Q-pr$^HcmZZh7&u=#W-DtW14H=P?wH?>H5In=sgp!W|@}pB7EX6=vY0
+z7f`3BhYsQ2|4+J#d)zwi%a~bcm?LaA@{0!H=ja=ha#-~pLOVb}3SE(+ONwBp6x~u>
+z@=MVpMM#yRSBkJE#bqh3gxYaerMl(?_DOX;)Q;>A1-_H^wdlH+l@_|pa%T(OX4&6D
+wk6Bh*=rzk)3zyAuh)h?B$ks<h#(whvV*l@=b()T+{YcYyc+<|~f#ipO06P;GoB#j-
+
+diff --git out/production/console/homeworks/HW/Train/ComfortClass.class out/production/console/homeworks/HW/Train/ComfortClass.class
+index 2fdfa56f514ad74be2a85c1b4cc72ac65e8da267..059dad8046e371d782daabff452f8fe2e710adb5
+GIT binary patch
+literal 1104
+zc$|$=|4-9E9DTQSZC46oUjRWAnNzo+RAi{h76Q&0N#>T=ZMyhVH_Iq?t?4%Ww`3$@
+zG#Y;Pk1~F)EM^E1uF2=+-RIrAch~#%``b?dIXn$RKvuyD?n{`H@Ib*dR(a86L=|dk
+zT=7swoa35|1jk1*W;m`($T5heVzp9z#jsr7bGzmz*Za`ZUcS+4o?$s!(e3WKUcYD?
+zy<VO{)@$39=i9Gq4B=;WUEiscbe$nsuD@lFQjP6$y+l0u?h0Pwfng8K9z!afxr$yW
+zy6;VfNZE4C%Angay_(UoX-4vms=Evu>GHmDU}(1CbTqy1SxzUPxq@}9?6wWNVR#mI
+z9N7wv(KUJRoF!#1SdP`-WSG5R$DK@rR`>TTI$Kz`I*!pFc;pmJ^M+h#+oQ$nV{1#!
+zpj)^!>L%^2=<dL4n=dRLGCJN~<#sA&`CFJ%v4O`7OP5%xSi}<*%Sft-BBmnFOM;gf
+z#2BW|Mq~)JZP%fl6Y0!Y{Az38Z1?m3{DRZa7yXm7uKBGsdXLles6$)xJO)4*A7NsI
+zGaRQE`1wdFAdG962g3rfBq1Nl5bO&ACkTEf#&Dgg==Vg@FXF~XpF_Z(RboQ+D?%p_
+zxIS=3f0L?us=^X(`F*-4s@!1>LHYnGyRvu;@$f&(CEVuGk@7WnAmc98(;y$|Abixm
+zLukgN;4$PQgngn2KAG@|8uH1cPo_klM5G_Yf<t;`O<{-$y%`!}Qg4bwMD!!D!@pOc
+S(7rrJj&cP?Iqo6tW9AS2bLqwa
+
+diff --git out/production/console/homeworks/HW/Train/Main.class out/production/console/homeworks/HW/Train/Main.class
+index af94ddb4757b656fe7f7ad2f14c743fb3a467db2..430deda16f0fb14ca8a568f4a799202aa7a9965b
+GIT binary patch
+literal 1269
+zc$|flTT|0O6vzKtN<&JJa<N<#XsMTSk)YzW2o}U?hYAj<RmP{Zq-C*fI@^H5i|>9M
+z`v9ZN_yPP-j%QQG_92-jGw00i{__8yJ=x^X-(SB0tl@PSLzq(#3nL(NT*W*RD(>K}
+zihH=PB8i1Cf>@Nmk_^iV9w=C02(9xvcQzRMk_!cf;I@5aF%0K;-P${?6)llBi&dH#
+z&DkZhS}+Bd<Lk+wbIh9zQ@LZiW_`8Am!_WisON>r>-swiDMD(L8KTM0xfAou)T?H_
+zq8pCj^-9V$G)09Z#ypl8l%^%lc!`|iUKVaN+6dA8j&QxEeOZFShJ7kZ)>|&?S7nha
+z(pbX{3^UC2aABDABNXTwR`F25BMpzSrr?Q&r+B8|xrP^bDIHQ8*6~Wi1~wTce454(
+z>9k_Mcw&_t@4~k2TG<xPcGYZB2i2_)hLPRdF$|w>b>q~CSucb;=V>AMnOUXg?`F~m
+zyIFciF;BS;OKLG6;*HfXg>x#Xa|4C+fssiU(hT!{g8y-!0`un$YrmXtzh`CV)B6K=
+zzn%qlv847rneEw>Ufb+lwWmjSAz69m74zsQFL;AtCh31xC8?Ep)v?6Zxzu1tc;j9A
+z3kAfX(eFTB0Wf*2DMo0dQ)ZO=7caqnxXU9HL+)e<qZG9^fH90yR&f*2>xaM5sE_jM
+z6#|Es=*wLpco@-I=x-s^f)W{TVPFJ5FX@|FTE0MdiN+Tg?D#}U7Z{*hMFNBLOVX&M
+eA=fw7*2V-TT_%YsOp|kh)^FjqyO9}JY4#sdHBK7<
+
+diff --git out/production/console/homeworks/HW/Train/Train.class out/production/console/homeworks/HW/Train/Train.class
+index bb641618ab6e87374b59f1a531cb56f05f8258eb..d21817dfe4b00700bdd6df353d9ee22630fd9deb
+GIT binary patch
+literal 2110
+zc$|$?+foxj5IvLIZo(=M?w}GbVpxOmegjktB2fgDi2ArB3oM3&S{5zK@&kPFOMK8O
+z6ROnm1N<n<?%4%l*@%^@?lV1orn~3t<k#<SKLK3E%LKYH5l0s$+1z4to6Q|IQ*7?C
+z$tjplAdU$Y_t?*{xvyfDeO|=_6%SR+sd%Jfo?{Da9xHgF;HiLGG;G^4R!sqs7f_1T
+zjg_kH2n@`vRX5BxRr}RecJ_I;U>jB?n{#(_Wn*h=oU)nw+9(U80<$gW?Ub8A$?=l8
+zY1q!TO{E4KrBCnX5Fz4N8z#HAn`VOw1=?Czk(dY}t0WMcuqu{wOW;E~f8+>9b$xW3
+zfi?EGl^<QA8FJMU&Con&Rm}PAjb+m=7|UgfB<HF{qr7C01hn>o5ogWX66g&)+MBg$
+z)pT-u(uLEbBwm7JyZQ~KNB=`XrcCXMIM{%4Kt_!i(|?s5Zp_)Qr9!NNlv5(9XoGSG
+zHH}hwo@7;>>Y`&?l~sXu;;kF6jcnPdtY+OPkFr?Zwu|PB#aEb+{BxY9;WQRC^q^Nm
+zA5LgEiBlT-k<u{0u|W)J7)Gx^m;cne+g7<`+9aGj?%nQNnbc6gGd84cB9rnSjSN4R
+z5$|D4(tTx8dmlb6l}w61YY)+=grb?0Rg&Zv8m{ApKzAeM1zP?#xv;!$79FWR^${~R
+zH_ZxN)mZxQ^&Gx2Z#KHP6Y2cFwhtWVmOSFPT;pxJ@-F&c0~CZ<5<($XMS2oOdeTPv
+z0dJoal73jO;}E3i2-!2V`ayA(d`91a(EDl#>6seB`dAGSy(dybRPTt^5Yu~NH7I(A
+zQiJ+Mo|Yy%LZ<;Oh@h2F635X-zjo@ZgSzOXI$bzR{f<)BQ@0Luia;XnUr59gge2k_
+z!V>Wm5s7$?s6;$TOd_5|A$A61-XvM_d|FihiqNOM7GpBlCtJ|m1g`~wbCTpIhd=ws
+z{ek53xDY^&_{l?o<cqizK#uy!X9CHW180u;XFeN9zJjX(WW`@O8%VwuSXuQ~z7$BN
+zm+6r|Qa10Ez9ar}2Z>};9U9A4$Fbyb7l-R;PPVu>!noDNQN~FZ$2h;u#R|vUU93{P
+X<$WC;b#(d%yS}ft(q3;jW!Cr~Y^JT!
+
+diff --git out/production/console/homeworks/HW/Train/TrainService.class out/production/console/homeworks/HW/Train/TrainService.class
+index d21d9f9ac971d28c1e38866af223c43723b46e15..553180232b3c3b7a91505a5a07643c2dbf00b9ff
+GIT binary patch
+literal 2853
+zc$}4%T~ixX7{~vc-LOqq+Jpw$G|)mR8eVJ^uqp*KK-xw^g4sa9YIT97Y@3j{S*TPm
+zylBU9^xA8u7xvnWwxf<*))_DS0$zFJXK);+^?6PR#182WlgZh0&hzsBo#&jh$!|}7
+z+5s?vPyGmET*ZVBC-J5aZz1l(B&K|rM#6_nxa@}qSJ;qb!`p0_VMB`NW_g(AUWTo6
+zJbcH8EOb9|nCI99Zmx2($jy?9cU4@I(B#;LwNaK3xt3Zl7R=j4`&K!2<!UU)^VRku
+zxs6#HmNOwij`l4`P^OBjri5cDYr{-$7M4vrXDsJwrZrVuG4czBZSi<_QgPNTQs{0d
+zpquuVwPKQvYOJp2Y^x-pGuoJk5hRPgNlq@@Pd$&mMR$yqTeC)K7f36w7jMV&c~&Z`
+zh|o&bth{5|liP9IwziDCgq{QSr!1%DA}Ca&=HKP!E+JSGnKny??QGhF(%VpG&q)aR
+zR`+Ahx`#;c*Tj;mRHSH<lXxuZYc)e|yJR+6C)+Y>`_)z);e6mC>wQUAFK*f^<|T^@
+z9jxEp^EZtxLqi8TC7f)uTN+LwqT)Rb@8i0P4>Wv;m<ozp#;}SN4XYUCB&LQnT-R^|
+zF%9b&)?l&WCePif4yl)CYk?yva}gyKA8D{r*5F`M!xnC9_!!$7?%)#%XIu`bgaEH0
+zmNzzT#4^h_%@yb1ps8YEt!O(_d814R-#0n0>&bLN*Be}ddUq<}>F1v$3Es(ULeJ55
+zxSa#KxYOz6TsCuX(z>0aqnucr%L>LXqDfaux6|%^L=V)cKTG1sHYKJq>C7y3E>FkP
+z`V4W-T#09Al4Lug=i=$<c$O+5r{)*wl+G;iygHXj<>Cu*^2jB!>C9X*^}n6dx66)M
+zprGO=?O$6;Sgc}f&bBrj-LXxhK)Z1KfN9EI;!&RJ)fP=Xdl<x3@!v3=y`4H6?Q?%G
+zXcSSmW#<~l)L(EfMe*IHH!{5jRT@<<bOXuy%A%WoX2SH#L$3tBZ`4z%PdAg=(=_@W
+z&C~<F>VE{OKj8lbo*y9he-Byy8J?xUu?mz5ycIMB{1vD{{P>7=gYAm2hb!<^K&IwE
+zr~)mBr!~7**jp=T5%#0p)dF{F<|bjL7*YsS5IiEX-(&N4#N)vkYEKg_6Dv4^7WnWI
+z{Fo);JT!bsGhJlWs{FLlvtpe+IJdjD&mq$X=#|GiSaRn+#Is}QSG0)Efc^l!yB_Jm
+z(?3~M7NV!nL~W2{S`or=Dq4ur1u5+bA=pKJ9un)t3-qM)yVBfy5m6HFqrM;Vzwk(r
+zf8eE={=I^KMloJ`Mj0SAurn@CbavcFWT10sR0%7O(Of}mSb2!!cV*)GYoDuK#4$|=
+zZD}W|Mo90BU}~qVAu0&#E1Z3oiAjz^egeOW0ZD5AThI(rA*(cBQyi~$glT36cP8Wu
+zN}JMoAH9QZ%Fw7c?0t+-*!vKnfp4p1UM5qB?2l*3dZ<3<s0O{1y$8d@QmfVp@?bKr
+z_zP64)(Flcwp%U1*en>ktBfz>mBTW&xij_?%K#B_1^S8cyes1nc{O4j!K;U5Y>#~7
+z#yCVQ!^Aj3jI4gamGJ_d#72y-;q}8Zo^Y?@D6w25#xY_XCB_L?#y7~X5#vR1;m7_1
+De4BT6
+
+diff --git out/production/console/homeworks/HW/Train/TypeOfTrain.class out/production/console/homeworks/HW/Train/TypeOfTrain.class
+index 85e488aa467cb5fd9c2a65c1f3079a1fc2de3ccc..bfecad5b29082ec773d3a011069b3ad9e3d87f7b
+GIT binary patch
+literal 1000
+zc$|$=VQ<n<6g`g?TDlGxDmt8Vb5ki(>I{B@EF%-+3>jucbn(*zJJwlRQ((q_<yhj3
+zMzhcUDC2z{F%XyGYjSVzyXT&J?tAao?{7Z=6!9ny8LJxZ;+}#z1@|@R$O&VpnAIq0
+z2t-~*Qus9m4;Yl{o0q#)%VJon9r#`QqaVEQna^LFjet9z+4%IquJ4EcB?i@MRCb<L
+zb{kZ;+N{)GRjF?I?exOf5qAf6k6|Te{0Cg#^55AE$(rNYJA-b^4jR1W(vA}H)b|;R
+zx!NH=;-<^Jj%oD+$Lo}g>CEYx-{x+U2aX^dvC1Cr+9LN4BPlOCp3~o8$Xw8H+h|gC
+z|G=Ti;+E6#cz+NOlavz)wcK_`#gE5otKOhno~CqzT5Fa+2-@~DM`%oqWeb8#M@n4s
+zoQ{VmFf3k9s3QYY$4xBgm_<TI5($RHq$-AJ+x0!_b~R^=DXzB;?RK9OJsCfPEtmIt
+zrHgK1lC`wCPOnX;Cn{~ui{=3Nr0}V%7=kh~;z;8Ps53=($cv>7!M-4J2I(_J4A;oU
+z!d#5-8C)OXi-?4~T3XJ3Mf41^z(*$VH^}PeD9j@p=IJ!Z3Wjw^^Z`nKZQ&HL<4ejF
+z+!E5U7-DWi#S+<bAunhUu?pWI@1+&#6zU1$VW7!jFcbYjku;>|vL_EQW1WB<{~b;v
+SM$sWl9V4R-%XA#Vulxa)`_{Gq
+
+diff --git out/production/console/lessons/learn_inheritance/Bmw.class out/production/console/lessons/learn_inheritance/Bmw.class
+index b537893cc5aa6daf399e63f34a270adb6bdf5672..f1ab050a007e6732ba34c942e3bdb818d1700586
+GIT binary patch
+literal 1129
+zc$|e&+iuf95IyT$oVq4W)20F1v`s14N!t1a9=PS9k$53OLai$G3AxECHFDOG<A4z2
+zpFo0C0*MdcqY$&}ke0->51!e%oHJ)e{`LF&PXG_$7%)&>zyfx3+%u5EZVvaQe;|z|
+zjjf}mqpqXDkd8hKI76}h)_vzXzAJjpQ51Tj_mm;~%oASJWU%b{@_eRtLUgU5OLR+Z
+zPw-cx{uvLC-7{Ye2s*BR;)b4#C&_el?hP5X+CCo+12J@b?uO!xC(e23MXu;@=dk~t
+zlw|ru>ysbQq=+G9%VD`5k6OV<CBl(l&?#}O_F1)SNgL_IzYV2?l@w<b#1VsW6pX?S
+zf8j}~ITCUp5hn7em@sjRp*%}*IP&~14`ol82nh30-uJm>Vh{V$9GKX|Iz#2!m9MS0
+z+>l}Aa&*fN1dk7zbq513x(xeC>&>Mma_KM|cI*FTROxpzz_3W4CRe9lO{aGrOJoZa
+zy{3GM{9?Uv0aoAp2JH)l8kWiCRjGsw%0zP;MT)lLcC26(P_GivGWC)JG<vU5e@x$?
+zPuAEaX;vjFip-3Q6Ea34ZUpWm0`J@mv=V`Lu|5Gh<Yg^W{|fE%4EWI%aApeLpfzG}
+zle#t8U2ptzK|^I96XuCxSc|)+*UPG#$-$dbAurVpf$9&WPA`xyX2!%zqR17jG4#SG
+TGGpXsMK-U9tWHI4sjlrmgI~s*
+
+diff --git out/production/console/lessons/learn_inheritance/Car.class out/production/console/lessons/learn_inheritance/Car.class
+index 01764562851b48521eda241917acc57d6e02375d..809f1a598495ed7e478f0f50faee7b94cb4dbe64
+GIT binary patch
+literal 624
+zc$|Gu%SyvQ6g`usX&R%}+SV5$;=(?}Y}_f`6uPPpsB|mSIJ8sJ2_&iCrJx8d`~W{n
+zypxnFz6hC{bLO6NPww0M%PW8r>^Lw{D<X%D0yYcSDqx!-KMik1z)<c@_#O8Gu0~!z
+ziKH5xGFWF)$)wFtt^d4k3>eG~sTo##Qi+S%bSR>0J`9Am3w<68cqBERlV&oOF~eRj
+z5OEx;*b4-Y)QwbQ5y^xrUw9oJ(Oi2Zl1?~N2}7=~=V;<Q3tFi+ev4|yiw>tB&LUrQ
+zrJiY%<FW2{VWZ^2LV;oT-vA7y&jFXiiSQ}M!QYZAije3(H1}z_CTOYj8hR8hUSk_Y
+zIvqk?;ti@!^BJt!dV=vl$iNbvE2IX>q^MAT6)vG#){SMlMf#;(nMpfGi7>+&DKc-5
+zDx;cjKEk+P*jg!hnA*8n!`zNxeG#lZ4`zJ}<)mzjG)G?oS&Kkc7Kolos;Pbe6$f=8
+
+diff --git out/production/console/lessons/learn_inheritance/Printable.class out/production/console/lessons/learn_inheritance/Printable.class
+index b56b579636ee556d55a89e92e6f1d8e55ade4b84..d6335b9bc38946311d2fd9d95b658cdea7548155
+GIT binary patch
+literal 418
+zc$|%p%}T>S5Xb+UkET}pVe98v1O+h{Zyp1J5L(fit8C)XZdo_7Nqj1wz=IFqLy5Do
+z*sBc8&iv*-JG=As{qYIl3P%z4BJ4*vh;S$nCbP%sTtM6k^pnz5wKR1mbwfVOLl(SR
+zWoiNc>^u|LT2MW0UUIT6;ie!dpGjbtDnq}Oxy&__aatBqXVNN{uVGLxRV8qmYN{%p
+z7Hg8$JSnpzt9W!l@tvFJ)Yk&NhqAE+-6+>P_^Vv5<eL;Y`Nt&!BPWivG>dqauc+X^
+zOg1RdrJ?nMH}t+S#=#CR1|FM_fTLrC=<pfwYCLq|1-udTI1|{$4*NdG7jRvy=)SkQ
+V0sBr%hHPkcj*qb0c8=R@@&mN$UlITS
+
+diff --git out/production/console/lessons/learn_inheritance/TestInheritance.class out/production/console/lessons/learn_inheritance/TestInheritance.class
+index 025266abed803b448ae8413433749e8bfda8ea3c..38a3f7fe4adff4cab0c57debb3cff57b155c88fb
+GIT binary patch
+literal 1097
+zc$|$<O;5r=5Pi#6p@JYFej@QCXkssV!gzpaVp8=0L5&Bq)D0{tOR_EcyF8I-;t%jg
+z8K;GWMA6v8Oy10!H*dBdpRex#j!-dSV9mgK5*tZunuuV_z_x)hL*hg#>7O!0tF;b8
+ztT}oV3|U($aWx)xg>Lh%OO?Dma=6>!S_XJljQM@(F&x;g@Vt@oELU)?9;E6EEq$&W
+zVYP+lU(9ixhK5`!hEnz39`Gk_xm@+EmanDi)k6zh_eiv`piM3vt{EzSENpU3JhL?#
+zYe$^Rz-IBAiNioRjU-YG<=>SW!)IF9xV&MA+#Uz~9fsP!Pi4r>54i3QgyS>pRexT!
+z=ozq!1pTz&i+}}IDVl^V%8YV+e**RrwwEX-!eRnxis>l<87xyyA&cB>_zW@P1DQ8O
+k?()%mY=XEw7cs+TiUjhZP-#lW3gM}20mX3tYB*E+0(SC^AOHXW
+
+diff --git out/production/console/lessons/learn_inheritance/Try.class out/production/console/lessons/learn_inheritance/Try.class
+index 0fda343a8bf84d1a71aa197f8d001170381d7216..32538a03ffd595887518e2c41cf061c47c58b3fe
+GIT binary patch
+literal 887
+zc$|e&U2oGc6g^Jcqz!?MZi5Xrwhjhq2jqpfO?#lyp2~;Rsjrh8tj<%KOpZIWe+3AJ
+z#KV5TeiY)`jY|1Yrby29^*!gFbM5P&Kdu10!V4cB9yH+MVFT;f@bL(nKDN;Eu<hY7
+zLnY>lVY8QrJkQcRN(5Kwu}n{dlA5Qnh`L<uF}V9OmHL2TJG`N`Jz%JIvk!t{p(j)E
+zb}}9cb;O4WWtzP#=E;C7Y4%03s!wEIF5*aCkcirulBp)qp=sidgzg&kt+0Kw{=6tI
+z)&F|@(dsXgVrm%tel}6DIF!afo#eed<>x$rk7j^68Xlem*uhf|&jN&Kd*}q%#dC&@
+zQkM*ihA2vSI*Q&6PerW%NcAsrEygs0Y(fVsJ$oXv=)IXtUn{}Kd!;?>5b89#H*`e_
+z!!iwTj$RYbh!~dsL(JgW3rJGx9R7=H5745g=F!t*aLg1as#5IZ7Oes84k_=@-|u_}
+z>+F7m^O<%IZqs@P6<X_rXwc`=9=JEH#sU@r8yQwc-(55d&V8z32LA<>&Q~~>s9vJ>
+zo7cA-s}!$U&R|+yaFSIl7fg|525N@p(~Q8i$@MvKZ3bQ;iBs@FVa@%^*0lW=VOn#R
+Q+?gepEZw(_S1o4k7tra;f&c&j
+
+diff --git apache-rat-0.6.jar apache-rat-0.6.jar
+deleted file mode 100644
+index 0b0c473452a8e32e6bc9a12c15df7c5e02eb7947..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+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
+G;=cj<dik0F
+
+diff --git out/production/console/learn_scanner/LearnScanner.class out/production/console/learn_scanner/LearnScanner.class
+deleted file mode 100644
+index 27db633a3c13a563f1a55a1151b6959db84af311..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+zc$|Gx=~B~B6#i}tO$b4tWfQB`1q^FM!L4k9qSdI(RB;%8IHA2$!=y<kxp8?B-$Q;B
+zM`nBgAIkCEq)yRRlbLgJzVn^+-u(Fa?K^;FJkyZFl!EC#T!Wz@g&FxZt71;WJQgIf
+zsKV569ZM>1D7dLX$CQd?saK@9CB<z8cNE-Z$gDb^Bi0$x#>^f=&$eIX41<>A@#j(f
+zfCn$_1DBAj<yUNX&kh`Ex4<6p&IuXvmdowHdmC14&*On<NvoU~MPk)$$72{X-dKnB
+zd)stvuV$7-;CQuST+<F}lqJ{2&7icBl0R`r!g0-Za$WF`VkhwHuR=*;B?hhRM?r<}
+zII_jz)6Fc(3_3<IN{)_f3hwDBVpS5>bgW~8VSJZH3;BG3dx8gr(695t2S2DP*wk?!
+zTROJ!fFZTCqTr#99Xz6W7U`kTzo*%X9JeZ)9NhP#Bq6UB7S;<o9-}116CF=sF--n@
+zpA19oye|$8c}4sIl|O}o*Qq19^3h~vj&GK{MkJ^WZr5pP6Gm5uJdCs-iPM3*)OkBF
+z*9E3CYDmkK1&!`Utax-vB~QfHtn_>NF^f=MlXIyJI|zA9>Y9eaGIpcEy(+^(H$n&0
+zS~&HcH%k9=tHMtph7qHaSi~h{>Bo~#3QXP~l4E3<q#5bn*<-LTv3s0kCI(eZkkk_b
+z&SH{uAI>4)3jT~Vy};%PQu{|pAEU=QLT@(HgfiEJx|Z$x3hlLo`UxU^0)77&1KBf8
+z4Cb2{YGRli?YbABknE>-fZ83R`Z>ZzF-`S0h#~taBsFoKJd(SDi-gggfI(wkjt9IF
+HXT16gS5gfa
+
