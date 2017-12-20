@@ -5,73 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="648ad3f2-89ab-487f-826f-d26ffb8386da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cglib-nodep-2.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.21.0-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/objenesis-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/powermock-mockito-1.7.1-full.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cglib_nodep_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWorks/11.17/23.11.2017.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SimpleTry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/Countries.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/Flight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/FlightService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/airoport/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Genre.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/LibriaryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeworks/HW/libriary/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/learn_class/LearnClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/low_coupling_code/Furniture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testing/powermock/UsePowerMock.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rat-0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/console/learn_scanner/LearnScanner.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWorks/ActionsBeforeShowCode.txt" afterPath="$PROJECT_DIR$/ActionsBeforeShowCode.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/FileManager/FileManager.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/fileManager/FileManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/CountryArrival.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/CountryArrival.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/CountryDeparture.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/CountryDeparture.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/Flight.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/Flight.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/FlightService.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/FlightService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Plain/Main.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/plain/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/CityArrival.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/CityArrival.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/CityDeparture.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/CityDeparture.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/ComfortClass.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/ComfortClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/Main.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/Train.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/Train.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/TrainService.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/TrainService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeworks/HW/Train/TypeOfTrain.java" afterPath="$PROJECT_DIR$/src/homeworks/HW/train/TypeOfTrain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/learn_scanner/LearnScanner.java" afterPath="$PROJECT_DIR$/src/lessons/learn_scanner/LearnScanner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/for_testing/mockito/ImitationDB.class" afterPath="$PROJECT_DIR$/out/production/console/for_testing/mockito/ImitationDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/FileManager/FileManager.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/FileManager/FileManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryArrival.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryArrival.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryDeparture.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/CountryDeparture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Flight.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Flight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/FlightService.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/FlightService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Main.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Plain/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityArrival.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityArrival.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityDeparture.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/CityDeparture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/ComfortClass.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/ComfortClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Main.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Train.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/Train.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TrainService.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TrainService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TypeOfTrain.class" afterPath="$PROJECT_DIR$/out/production/console/homeworks/HW/Train/TypeOfTrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Bmw.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Bmw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Car.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Car.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Printable.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Printable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/TestInheritance.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/TestInheritance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Try.class" afterPath="$PROJECT_DIR$/out/production/console/lessons/learn_inheritance/Try.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console.iml" afterPath="$PROJECT_DIR$/console.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" afterPath="$PROJECT_DIR$/src/for_testing/mockito/ImitationDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Bmw.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Bmw.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Car.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Printable.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Printable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/TestInheritance.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/TestInheritance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/Try.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/Try.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java" afterPath="$PROJECT_DIR$/src/lessons/learn_inheritance/learn_polyrphism/TestPolymorphism.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" afterPath="$PROJECT_DIR$/src/testing/mocking/UseMockito.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +24,7 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="238">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#368#369#0" expanded="true" />
@@ -124,11 +58,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="238">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <marker date="1513631151738" expanded="true" signature="308:673" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +78,7 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="867">
               <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#1321#1322#0" expanded="true" />
@@ -302,6 +234,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,42 +248,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -766,6 +666,14 @@
       <workItem from="1491039186502" duration="611000" />
       <workItem from="1491129359171" duration="16194000" />
     </task>
+    <task id="LOCAL-00001" summary="mjunjlnj">
+      <created>1513809553747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513809553747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,30 +717,30 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.382906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.408547" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51623935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44786325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.408547" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36157337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36686838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46495727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.382906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -893,6 +801,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mjunjlnj" />
+    <option name="LAST_COMMIT_MESSAGE" value="mjunjlnj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1335,7 +1247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="867">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#1321#1322#0" expanded="true" />
@@ -1345,7 +1257,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#368#369#0" expanded="true" />
@@ -1363,11 +1275,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homeworks/HW/libriary/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1513631151738" expanded="true" signature="308:673" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
