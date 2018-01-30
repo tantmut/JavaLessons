@@ -1,4 +1,4 @@
-package homeworks.HW.libriary;
+﻿package homeworks.HW.libriary;
 
 /**
  * Created by nazar123 on 26.11.2017.
@@ -6,9 +6,9 @@ package homeworks.HW.libriary;
 public class User {
 //     * 2)  В классе Юзер добавить полей(пароль, роль(энам), логин)
 
+
     private String password;
     private String login;
-    //нужно ли ето поле здесь?
     private Role role;
 
     public User(String login, String password) {
@@ -16,8 +16,8 @@ public class User {
         this.password = password;
     }
 
-    public User(String password, String login, Role role) {
-        this(password, login);
+    public User(String login , String  password, Role role) {
+        this(login, password);
         this.role = role;
     }
 
@@ -30,8 +30,10 @@ public class User {
         User user = (User) o;
 
         if (!password.equals(user.password)) return false;
-        return login.equals(user.login);
+        if (!login.equals(user.login)) return false;
+        return role == user.role;
     }
+
 
     @Override
     public int hashCode() {

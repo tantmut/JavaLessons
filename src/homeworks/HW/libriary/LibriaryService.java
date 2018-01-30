@@ -1,4 +1,4 @@
-
+﻿
 package homeworks.HW.libriary;
 
 import java.time.LocalTime;
@@ -16,7 +16,7 @@ import java.util.*;
 
 public class LibriaryService {
     Scanner reader = new Scanner(System.in);
-
+    private final int attempsToEnterLogAndPass = 3;
     private final int OPENING_HOUR = 8;
     private final int CLOSING_HOUR = 17;
     private Map<Genre, List<Book>> libriary = new HashMap<>();
@@ -119,13 +119,10 @@ public class LibriaryService {
         }
     }
 
-    public boolean checkEnterCredentials(String nameOfUser, String userPassword) {
+    public boolean checkEnterCredentials(String login, String userPassword, Role role) {
         boolean flag = false;
         for (int i = 0; i < userCredential.size(); i++) {
-            if (userCredential.get(i).getLogin().equals(nameOfUser) &&
-                    userCredential.get(i).getPassword().equals(userPassword)
-//                    userCredential.get(i).equals(new User(nameOfUser, userPassword))
-                    ) {
+            if (userCredential.get(i).equals(new User(login, userPassword, role))) {
                 flag = true;
                 return flag;
             }
@@ -138,20 +135,17 @@ public class LibriaryService {
         return reader.nextLine();
     }
 
-    public String userLogin() {
-        System.out.println("Please enter a right data.");
-        String login = "";
-        for (int i = 0; i < 3; i++) {
-            String nameOfUser = enterData("Enter your login: ");
-            String password = enterData("Enter your password: ");
-            if (checkEnterCredentials(nameOfUser, password)) {
-                login = nameOfUser;
-                return login;
-            }
+    public Boolean userLogin(String login, String password, Role role) {
 
+        Boolean flag = false;
+
+        if (checkEnterCredentials(login, password, role)) {
+            flag = true;
         }
+
         System.out.println("You are blocked for a week.");
-        return login;
+        return flag;
+
     }
 
     public Role userRole(String login) {
@@ -166,6 +160,19 @@ public class LibriaryService {
         return role;
     }
 
+    private Role loginConvertToRole(String login) {
+
+        Role userRole = Role.NOUSER;
+        if (login.toUpperCase().equals(Role.USER.toString())) {
+            userRole = Role.USER;
+        }
+        if (login.toUpperCase().equals(Role.ADMIN.toString())) {
+            userRole = Role.ADMIN;
+        }
+
+        return userRole;
+
+    }
 
     public void libriaryMenu() {
         //uncoment
@@ -174,8 +181,30 @@ public class LibriaryService {
 //            return;
 //        }
 
-        Role role = userRole(userLogin());
-        if (role.equals(Role.ADMIN)) {
+        Role convertLoginToRole = null;
+        int count = 0;
+        for (int i = 0; i < attempsToEnterLogAndPass; i++) {
+
+
+            String login = enterData("Enter your login: ");
+            String password = enterData("Enter your password: ");
+
+            convertLoginToRole = loginConvertToRole(login);
+
+            if (userLogin(login, password, convertLoginToRole)) {
+                count++;
+                break;
+            }
+
+        }
+
+        if (count == 0){
+            System.out.println("You are blocked on a next 5 hours");
+            return;
+        }
+
+
+        if (convertLoginToRole.equals(Role.ADMIN)) {
             while (true) {
                 System.out.println(
                         "1.Delete book from libriary\n"
@@ -224,7 +253,7 @@ public class LibriaryService {
                     return;
                 }
             }
-        } else if (role.equals(Role.USER)) {
+        } else if (convertLoginToRole.equals(Role.USER)) {
             while (true) {
                 System.out.println(
                         "1. Take a book\n"
@@ -256,5 +285,7 @@ public class LibriaryService {
             }
         }
     }
+
+
 }
 
