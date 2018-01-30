@@ -7,6 +7,4 @@ public enum Genre {
     COMEDY,
     TRILLER,
     MELODRAMA;
-
-
 }

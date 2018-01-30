@@ -1,4 +1,3 @@
-﻿
 package homeworks.HW.libriary;
 
 import java.time.LocalTime;

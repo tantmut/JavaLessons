@@ -1,4 +1,4 @@
-﻿package homeworks.HW.libriary;
+package homeworks.HW.libriary;
 
 /**
  * Created by nazar123 on 26.11.2017.
