@@ -10,9 +10,7 @@ public class Main {
     public static void main(String[] args) {
         LibriaryService lib = new LibriaryService();
 
-        System.out.println( );
-//        lib.deleteBookByAdmin("comedy", 1 );
-        lib.libriaryMenu();
+         lib.openLibriaryMenu();
 
 //        lib.watchListOfBook();
 //        lib.watchLictOfBookByGenre(Genre.COMEDY);
