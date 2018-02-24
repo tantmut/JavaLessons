@@ -1,8 +1,11 @@
+/*
 package lessons.learn_inheritance;
 
+*/
 /**
  * Created by nazar on 3/11/2017.
- */
+ *//*
+
 public class TestInheritance {
     public static void main(String[] args) {
         Bmw bmw = new Bmw("BMW", "X5");
@@ -18,3 +21,4 @@ public class TestInheritance {
         aTry.print();
     }
 }
+*/
